@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/tictactoe/react-native-image-crop-picker/unspecified/res/xml/provider_paths.xml"
+    }
+]

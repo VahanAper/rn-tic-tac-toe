@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_ba9ab4459d0d094eb973156401fd342cd3b58bda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_0bee15edafe1a0a4ee5ea73fbf013b57078fa021.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_fdbadeba2ce90a1eb4b0f7f9fd43d9f61533343a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_93646b45358616e78351063aa80ef2184ec78435.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_5e90964c237389de29322b5b067fce9297b8af8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_6629d95e3b6521ca32f43e82ac36bd89bb3128e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_db64d07b870ebf0a316dfaf333e592cd6d819dc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_1741852a4c56be4e38c0b0fbbc6be40478a05c00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_60a79b439693251736697c61dcdd84f32c7fac59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_a36bf8c3d402a6f8d21a1ac3ae6e514d008bf424.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_ab94729b38e49a8f65edaed88f85c9778fff7967.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_1242e4d74e7214ccdb463ad6755e17056b02a2d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_ea7e20ee8b7af757e13573aa657d34fb4a896e1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_90c3606f2a284b53d79784b1133fc4ad096ec815.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/reactive-streams-1.0.0_bc1fb2aa249b6278a62c5bc8101035d0bbd6da00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/tictactoe/react-native-image-crop-picker/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279d62e02da8f3bedd183bebc1a466abee462479">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/tictactoe-react-native-image-crop-picker-unspecified_9844ed5e98b6e5b197fb66ba450a2b456df4bc22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3c4644900954c2d71910c5434e98192bf772878a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_9e82fbace38b33929b4abb99d5af92876dc42fe6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_9859543b9562f8e76cd296b09b5d46698134eff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_53dad4d0bd2d2d93e68b0a949b946790e474dc55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_68dfbf3f462e1af3f65839d202ee44db7467ea85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_a6ccd98f7b3a34f682492113cd4da8fcb1a2a5e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_96e3114a40f9a1111b7c64f1eb01738cf0105866.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_17648feca5b505740d941808b7274008c350b531.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.github.yalantis/ucrop/2.2.1-native/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2e492787f157c13839c02e0b7293871dbaed9911">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.github.yalantis-ucrop-2.2.1-native_72cdf9d65cd6eba3945c6b0907a6683137e8a85f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_b673462f90c34407aedeedb471d5e54a17d39d0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_f9f4c2069460bd1155c44d5366b045fefaf6685e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_0257dbfbc31d9f108fbb6233057e1c09fd69c870.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1/rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/rxjava-2.1.0_6adcedc98b021848bb7305e09f4355b7f45601c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_e77a7fdd84ac49c5a4f25d75d9bb7a737099eef4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_ea53592371835c215e098aeb8980ca6add5e7cae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_d0f759cb6cf9671ce454c37c0e999cef2d59ff95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_a00df7eb6a32b5bddb930764f9773fe4bf22c004.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_b964c868453df1355691f169d9bbdbe96905071d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/id.zelory/compressor/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6b1555196d65ffa1174f6f49efb2f278905f537a">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/id.zelory-compressor-2.1.0_2704afdfd4292aabd82f6b9e34ae274782f9ecf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_a008b82421320e0b1cddd519f8e240d7ae138d3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_bdf37662b99c1d75692d47dcad16b1a8a20e1677.jar" />
+    </item>
+
+</items>
