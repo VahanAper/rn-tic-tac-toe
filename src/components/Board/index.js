@@ -3,6 +3,7 @@ import {
     View,
     Text,
     Dimensions,
+    StyleSheet,
 } from 'react-native';
 import isEqual from 'lodash.isequal';
 
@@ -65,7 +66,7 @@ class Board extends React.Component {
         }, this.findWinner);
     }
     
-    render() {
+    renderBoard() {
         const { winner } = this.state;
         const { width } = Dimensions.get('window');
         
@@ -99,6 +100,23 @@ class Board extends React.Component {
             </View>
         );
     }
+    
+    render() {
+        return (
+            <View style={styles.container}>
+                {this.renderBoard()}
+            </View>
+        );
+    }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
 
 export default Board;

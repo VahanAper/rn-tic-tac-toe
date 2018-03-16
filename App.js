@@ -1,30 +1,42 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { 
+    View,
+    Text,
+} from 'react-native';
+import {
+    TabBarBottom,
+    TabNavigator,
+    StackNavigator,
+} from 'react-navigation';
 
-import Tile from './src/components/Tile';
+import Levels from './src/components/Levels';
 import Board from './src/components/Board';
 
-export default class App extends React.Component {
-    onPress = (index) => {
-        console.log('index ::: ', index);
-    }
-    
+const MainNavigator = TabNavigator({
+    levels: { screen: Levels },
+    game : { screen: Board },
+}, {
+    // this option will prevent to render all screens at the same time
+    lazy: true,
+    // this option prevents navigation swiping on Android
+    swipeEnabled: false,
+    tabBarPosition: 'bottom',
+    // this prop allows the Icons to be shown on android
+    tabBarComponent: TabBarBottom,
+    tabBarOptions: {
+        labelStyle: {
+            fontSize: 12,
+        },
+    },
+});
+
+class App extends React.Component {
     render() {
         return (
-            <View style={styles.container}>
-                
-                <Board />
-        
-            </View>
+            <MainNavigator />
         );
     }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
+
