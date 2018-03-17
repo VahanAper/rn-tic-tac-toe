@@ -2,9 +2,11 @@ import React from 'react';
 import {
     View,
     Text,
+    Button,
     Dimensions,
     StyleSheet,
 } from 'react-native';
+import ImagePicker from 'react-native-image-crop-picker';
 import isEqual from 'lodash.isequal';
 
 import Tile from '../Tile';
@@ -80,7 +82,7 @@ class Board extends React.Component {
         
         return (
             <View style={{
-                // flex: 1,
+                flex: 3,
                 flexDirection: 'row',
                 flexWrap: 'wrap',
                 width: width - 50,
@@ -101,22 +103,51 @@ class Board extends React.Component {
         );
     }
     
+    openImagePicker = () => {
+        ImagePicker.openPicker({
+            width: 300,
+            height: 400,
+            cropping: true
+        }).then(image => {
+            console.log('image ;::: ', image);
+        });
+    }
+    
     render() {
         return (
             <View style={styles.container}>
+                <View style={styles.settingsContainer}>
+                    <Button
+                        onPress={this.openImagePicker}
+                        title="Change Image for X"
+                    />
+                    <Button
+                        onPress={() => {}}
+                        title="Change Image for O"
+                    />
+                </View>
+                
                 {this.renderBoard()}
+                
             </View>
         );
     }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+    },
+    settingsContainer: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
 });
 
 export default Board;
