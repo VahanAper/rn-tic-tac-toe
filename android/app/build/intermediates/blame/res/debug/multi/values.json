@@ -8252,9 +8252,30 @@
                     "startLine": 1488,
                     "startColumn": 4,
                     "startOffset": 109707,
-                    "endLine": 1491,
+                    "endLine": 1495,
+                    "endColumn": 12,
+                    "endOffset": 110113
+                },
+                "from": {
+                    "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/tictactoe/react-native-image-picker/unspecified/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1496,
+                    "startColumn": 4,
+                    "startOffset": 110118,
+                    "endLine": 1499,
                     "endColumn": 10,
-                    "endOffset": 109904
+                    "endOffset": 110315
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -8270,12 +8291,12 @@
             },
             {
                 "to": {
-                    "startLine": 1492,
+                    "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 109909,
-                    "endLine": 1495,
+                    "startOffset": 110320,
+                    "endLine": 1503,
                     "endColumn": 10,
-                    "endOffset": 110110
+                    "endOffset": 110521
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -8291,12 +8312,12 @@
             },
             {
                 "to": {
-                    "startLine": 1496,
+                    "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 110115,
-                    "endLine": 1537,
+                    "startOffset": 110526,
+                    "endLine": 1545,
                     "endColumn": 12,
-                    "endOffset": 113296
+                    "endOffset": 113707
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8312,12 +8333,12 @@
             },
             {
                 "to": {
-                    "startLine": 1538,
+                    "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 113301,
-                    "endLine": 1580,
+                    "startOffset": 113712,
+                    "endLine": 1588,
                     "endColumn": 12,
-                    "endOffset": 116625
+                    "endOffset": 117036
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8333,11 +8354,11 @@
             },
             {
                 "to": {
-                    "startLine": 1581,
+                    "startLine": 1589,
                     "startColumn": 4,
-                    "startOffset": 116630,
+                    "startOffset": 117041,
                     "endColumn": 61,
-                    "endOffset": 116687
+                    "endOffset": 117098
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8352,12 +8373,12 @@
             },
             {
                 "to": {
-                    "startLine": 1582,
+                    "startLine": 1590,
                     "startColumn": 4,
-                    "startOffset": 116692,
-                    "endLine": 1591,
+                    "startOffset": 117103,
+                    "endLine": 1599,
                     "endColumn": 12,
-                    "endOffset": 117317
+                    "endOffset": 117728
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8373,12 +8394,12 @@
             },
             {
                 "to": {
-                    "startLine": 1592,
+                    "startLine": 1600,
                     "startColumn": 4,
-                    "startOffset": 117322,
-                    "endLine": 1600,
+                    "startOffset": 117733,
+                    "endLine": 1608,
                     "endColumn": 12,
-                    "endOffset": 117931
+                    "endOffset": 118342
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8394,11 +8415,11 @@
             },
             {
                 "to": {
-                    "startLine": 1601,
+                    "startLine": 1609,
                     "startColumn": 4,
-                    "startOffset": 117936,
+                    "startOffset": 118347,
                     "endColumn": 85,
-                    "endOffset": 118017
+                    "endOffset": 118428
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8413,12 +8434,12 @@
             },
             {
                 "to": {
-                    "startLine": 1602,
+                    "startLine": 1610,
                     "startColumn": 4,
-                    "startOffset": 118022,
-                    "endLine": 1603,
+                    "startOffset": 118433,
+                    "endLine": 1611,
                     "endColumn": 12,
-                    "endOffset": 118130
+                    "endOffset": 118541
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8434,12 +8455,12 @@
             },
             {
                 "to": {
-                    "startLine": 1604,
+                    "startLine": 1612,
                     "startColumn": 4,
-                    "startOffset": 118135,
-                    "endLine": 1607,
+                    "startOffset": 118546,
+                    "endLine": 1615,
                     "endColumn": 12,
-                    "endOffset": 118359
+                    "endOffset": 118770
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8455,12 +8476,12 @@
             },
             {
                 "to": {
-                    "startLine": 1608,
+                    "startLine": 1616,
                     "startColumn": 4,
-                    "startOffset": 118364,
-                    "endLine": 1610,
+                    "startOffset": 118775,
+                    "endLine": 1618,
                     "endColumn": 12,
-                    "endOffset": 118519
+                    "endOffset": 118930
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8476,12 +8497,12 @@
             },
             {
                 "to": {
-                    "startLine": 1611,
+                    "startLine": 1619,
                     "startColumn": 4,
-                    "startOffset": 118524,
-                    "endLine": 1613,
+                    "startOffset": 118935,
+                    "endLine": 1621,
                     "endColumn": 12,
-                    "endOffset": 118671
+                    "endOffset": 119082
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8497,12 +8518,12 @@
             },
             {
                 "to": {
-                    "startLine": 1614,
+                    "startLine": 1622,
                     "startColumn": 4,
-                    "startOffset": 118676,
-                    "endLine": 1616,
+                    "startOffset": 119087,
+                    "endLine": 1624,
                     "endColumn": 12,
-                    "endOffset": 118842
+                    "endOffset": 119253
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8518,12 +8539,12 @@
             },
             {
                 "to": {
-                    "startLine": 1617,
+                    "startLine": 1625,
                     "startColumn": 4,
-                    "startOffset": 118847,
-                    "endLine": 1619,
+                    "startOffset": 119258,
+                    "endLine": 1627,
                     "endColumn": 12,
-                    "endOffset": 119009
+                    "endOffset": 119420
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8539,12 +8560,12 @@
             },
             {
                 "to": {
-                    "startLine": 1620,
+                    "startLine": 1628,
                     "startColumn": 4,
-                    "startOffset": 119014,
-                    "endLine": 1623,
+                    "startOffset": 119425,
+                    "endLine": 1631,
                     "endColumn": 12,
-                    "endOffset": 119252
+                    "endOffset": 119663
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8560,12 +8581,12 @@
             },
             {
                 "to": {
-                    "startLine": 1624,
+                    "startLine": 1632,
                     "startColumn": 4,
-                    "startOffset": 119257,
-                    "endLine": 1626,
+                    "startOffset": 119668,
+                    "endLine": 1634,
                     "endColumn": 12,
-                    "endOffset": 119422
+                    "endOffset": 119833
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8581,12 +8602,12 @@
             },
             {
                 "to": {
-                    "startLine": 1627,
+                    "startLine": 1635,
                     "startColumn": 4,
-                    "startOffset": 119427,
-                    "endLine": 1629,
+                    "startOffset": 119838,
+                    "endLine": 1637,
                     "endColumn": 12,
-                    "endOffset": 119595
+                    "endOffset": 120006
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8602,12 +8623,12 @@
             },
             {
                 "to": {
-                    "startLine": 1630,
+                    "startLine": 1638,
                     "startColumn": 4,
-                    "startOffset": 119600,
-                    "endLine": 1632,
+                    "startOffset": 120011,
+                    "endLine": 1640,
                     "endColumn": 12,
-                    "endOffset": 119766
+                    "endOffset": 120177
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8623,12 +8644,12 @@
             },
             {
                 "to": {
-                    "startLine": 1633,
+                    "startLine": 1641,
                     "startColumn": 4,
-                    "startOffset": 119771,
-                    "endLine": 1636,
+                    "startOffset": 120182,
+                    "endLine": 1644,
                     "endColumn": 12,
-                    "endOffset": 120040
+                    "endOffset": 120451
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8644,12 +8665,12 @@
             },
             {
                 "to": {
-                    "startLine": 1637,
+                    "startLine": 1645,
                     "startColumn": 4,
-                    "startOffset": 120045,
-                    "endLine": 1639,
+                    "startOffset": 120456,
+                    "endLine": 1647,
                     "endColumn": 12,
-                    "endOffset": 120239
+                    "endOffset": 120650
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8665,12 +8686,12 @@
             },
             {
                 "to": {
-                    "startLine": 1640,
+                    "startLine": 1648,
                     "startColumn": 4,
-                    "startOffset": 120244,
-                    "endLine": 1643,
+                    "startOffset": 120655,
+                    "endLine": 1651,
                     "endColumn": 12,
-                    "endOffset": 120444
+                    "endOffset": 120855
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8686,12 +8707,12 @@
             },
             {
                 "to": {
-                    "startLine": 1644,
+                    "startLine": 1652,
                     "startColumn": 4,
-                    "startOffset": 120449,
-                    "endLine": 1647,
+                    "startOffset": 120860,
+                    "endLine": 1655,
                     "endColumn": 12,
-                    "endOffset": 120774
+                    "endOffset": 121185
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8707,12 +8728,12 @@
             },
             {
                 "to": {
-                    "startLine": 1648,
+                    "startLine": 1656,
                     "startColumn": 4,
-                    "startOffset": 120779,
-                    "endLine": 1650,
+                    "startOffset": 121190,
+                    "endLine": 1658,
                     "endColumn": 12,
-                    "endOffset": 120975
+                    "endOffset": 121386
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -8728,12 +8749,12 @@
             },
             {
                 "to": {
-                    "startLine": 1651,
+                    "startLine": 1659,
                     "startColumn": 4,
-                    "startOffset": 120980,
-                    "endLine": 1653,
+                    "startOffset": 121391,
+                    "endLine": 1661,
                     "endColumn": 12,
-                    "endOffset": 121164
+                    "endOffset": 121575
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -8749,12 +8770,12 @@
             },
             {
                 "to": {
-                    "startLine": 1654,
+                    "startLine": 1662,
                     "startColumn": 4,
-                    "startOffset": 121169,
-                    "endLine": 1656,
+                    "startOffset": 121580,
+                    "endLine": 1664,
                     "endColumn": 12,
-                    "endOffset": 121363
+                    "endOffset": 121774
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -8770,12 +8791,12 @@
             },
             {
                 "to": {
-                    "startLine": 1657,
+                    "startLine": 1665,
                     "startColumn": 4,
-                    "startOffset": 121368,
-                    "endLine": 1659,
+                    "startOffset": 121779,
+                    "endLine": 1667,
                     "endColumn": 12,
-                    "endOffset": 121550
+                    "endOffset": 121961
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -8791,11 +8812,11 @@
             },
             {
                 "to": {
-                    "startLine": 1660,
+                    "startLine": 1668,
                     "startColumn": 4,
-                    "startOffset": 121555,
+                    "startOffset": 121966,
                     "endColumn": 83,
-                    "endOffset": 121634
+                    "endOffset": 122045
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8810,11 +8831,11 @@
             },
             {
                 "to": {
-                    "startLine": 1661,
+                    "startLine": 1669,
                     "startColumn": 4,
-                    "startOffset": 121639,
+                    "startOffset": 122050,
                     "endColumn": 95,
-                    "endOffset": 121730
+                    "endOffset": 122141
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8829,11 +8850,11 @@
             },
             {
                 "to": {
-                    "startLine": 1662,
+                    "startLine": 1670,
                     "startColumn": 4,
-                    "startOffset": 121735,
+                    "startOffset": 122146,
                     "endColumn": 95,
-                    "endOffset": 121826
+                    "endOffset": 122237
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8848,11 +8869,11 @@
             },
             {
                 "to": {
-                    "startLine": 1663,
+                    "startLine": 1671,
                     "startColumn": 4,
-                    "startOffset": 121831,
+                    "startOffset": 122242,
                     "endColumn": 97,
-                    "endOffset": 121924
+                    "endOffset": 122335
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8867,11 +8888,11 @@
             },
             {
                 "to": {
-                    "startLine": 1664,
+                    "startLine": 1672,
                     "startColumn": 4,
-                    "startOffset": 121929,
+                    "startOffset": 122340,
                     "endColumn": 99,
-                    "endOffset": 122024
+                    "endOffset": 122435
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8886,11 +8907,11 @@
             },
             {
                 "to": {
-                    "startLine": 1665,
+                    "startLine": 1673,
                     "startColumn": 4,
-                    "startOffset": 122029,
+                    "startOffset": 122440,
                     "endColumn": 101,
-                    "endOffset": 122126
+                    "endOffset": 122537
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8905,11 +8926,11 @@
             },
             {
                 "to": {
-                    "startLine": 1666,
+                    "startLine": 1674,
                     "startColumn": 4,
-                    "startOffset": 122131,
+                    "startOffset": 122542,
                     "endColumn": 101,
-                    "endOffset": 122228
+                    "endOffset": 122639
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8924,11 +8945,11 @@
             },
             {
                 "to": {
-                    "startLine": 1667,
+                    "startLine": 1675,
                     "startColumn": 4,
-                    "startOffset": 122233,
+                    "startOffset": 122644,
                     "endColumn": 101,
-                    "endOffset": 122330
+                    "endOffset": 122741
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8943,11 +8964,11 @@
             },
             {
                 "to": {
-                    "startLine": 1668,
+                    "startLine": 1676,
                     "startColumn": 4,
-                    "startOffset": 122335,
+                    "startOffset": 122746,
                     "endColumn": 101,
-                    "endOffset": 122432
+                    "endOffset": 122843
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8962,11 +8983,11 @@
             },
             {
                 "to": {
-                    "startLine": 1669,
+                    "startLine": 1677,
                     "startColumn": 4,
-                    "startOffset": 122437,
+                    "startOffset": 122848,
                     "endColumn": 101,
-                    "endOffset": 122534
+                    "endOffset": 122945
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -8981,11 +9002,11 @@
             },
             {
                 "to": {
-                    "startLine": 1670,
+                    "startLine": 1678,
                     "startColumn": 4,
-                    "startOffset": 122539,
+                    "startOffset": 122950,
                     "endColumn": 99,
-                    "endOffset": 122634
+                    "endOffset": 123045
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9000,11 +9021,11 @@
             },
             {
                 "to": {
-                    "startLine": 1671,
+                    "startLine": 1679,
                     "startColumn": 4,
-                    "startOffset": 122639,
+                    "startOffset": 123050,
                     "endColumn": 95,
-                    "endOffset": 122730
+                    "endOffset": 123141
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9019,11 +9040,11 @@
             },
             {
                 "to": {
-                    "startLine": 1672,
+                    "startLine": 1680,
                     "startColumn": 4,
-                    "startOffset": 122735,
+                    "startOffset": 123146,
                     "endColumn": 111,
-                    "endOffset": 122842
+                    "endOffset": 123253
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9038,11 +9059,11 @@
             },
             {
                 "to": {
-                    "startLine": 1673,
+                    "startLine": 1681,
                     "startColumn": 4,
-                    "startOffset": 122847,
+                    "startOffset": 123258,
                     "endColumn": 128,
-                    "endOffset": 122971
+                    "endOffset": 123382
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9057,11 +9078,11 @@
             },
             {
                 "to": {
-                    "startLine": 1674,
+                    "startLine": 1682,
                     "startColumn": 4,
-                    "startOffset": 122976,
+                    "startOffset": 123387,
                     "endColumn": 122,
-                    "endOffset": 123094
+                    "endOffset": 123505
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9076,11 +9097,11 @@
             },
             {
                 "to": {
-                    "startLine": 1675,
+                    "startLine": 1683,
                     "startColumn": 4,
-                    "startOffset": 123099,
+                    "startOffset": 123510,
                     "endColumn": 130,
-                    "endOffset": 123225
+                    "endOffset": 123636
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9095,11 +9116,11 @@
             },
             {
                 "to": {
-                    "startLine": 1676,
+                    "startLine": 1684,
                     "startColumn": 4,
-                    "startOffset": 123230,
+                    "startOffset": 123641,
                     "endColumn": 130,
-                    "endOffset": 123356
+                    "endOffset": 123767
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9114,11 +9135,11 @@
             },
             {
                 "to": {
-                    "startLine": 1677,
+                    "startLine": 1685,
                     "startColumn": 4,
-                    "startOffset": 123361,
+                    "startOffset": 123772,
                     "endColumn": 97,
-                    "endOffset": 123454
+                    "endOffset": 123865
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9133,11 +9154,11 @@
             },
             {
                 "to": {
-                    "startLine": 1678,
+                    "startLine": 1686,
                     "startColumn": 4,
-                    "startOffset": 123459,
+                    "startOffset": 123870,
                     "endColumn": 113,
-                    "endOffset": 123568
+                    "endOffset": 123979
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9152,11 +9173,11 @@
             },
             {
                 "to": {
-                    "startLine": 1679,
+                    "startLine": 1687,
                     "startColumn": 4,
-                    "startOffset": 123573,
+                    "startOffset": 123984,
                     "endColumn": 93,
-                    "endOffset": 123662
+                    "endOffset": 124073
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9171,12 +9192,12 @@
             },
             {
                 "to": {
-                    "startLine": 1680,
+                    "startLine": 1688,
                     "startColumn": 4,
-                    "startOffset": 123667,
-                    "endLine": 1683,
+                    "startOffset": 124078,
+                    "endLine": 1691,
                     "endColumn": 12,
-                    "endOffset": 123861
+                    "endOffset": 124272
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9192,12 +9213,12 @@
             },
             {
                 "to": {
-                    "startLine": 1684,
+                    "startLine": 1692,
                     "startColumn": 4,
-                    "startOffset": 123866,
-                    "endLine": 1687,
+                    "startOffset": 124277,
+                    "endLine": 1695,
                     "endColumn": 12,
-                    "endOffset": 124065
+                    "endOffset": 124476
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9213,11 +9234,11 @@
             },
             {
                 "to": {
-                    "startLine": 1688,
+                    "startLine": 1696,
                     "startColumn": 4,
-                    "startOffset": 124070,
+                    "startOffset": 124481,
                     "endColumn": 68,
-                    "endOffset": 124134
+                    "endOffset": 124545
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9232,11 +9253,11 @@
             },
             {
                 "to": {
-                    "startLine": 1689,
+                    "startLine": 1697,
                     "startColumn": 4,
-                    "startOffset": 124139,
+                    "startOffset": 124550,
                     "endColumn": 115,
-                    "endOffset": 124250
+                    "endOffset": 124661
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9251,11 +9272,11 @@
             },
             {
                 "to": {
-                    "startLine": 1690,
+                    "startLine": 1698,
                     "startColumn": 4,
-                    "startOffset": 124255,
+                    "startOffset": 124666,
                     "endColumn": 127,
-                    "endOffset": 124378
+                    "endOffset": 124789
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9270,11 +9291,11 @@
             },
             {
                 "to": {
-                    "startLine": 1691,
+                    "startLine": 1699,
                     "startColumn": 4,
-                    "startOffset": 124383,
+                    "startOffset": 124794,
                     "endColumn": 63,
-                    "endOffset": 124442
+                    "endOffset": 124853
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9289,12 +9310,12 @@
             },
             {
                 "to": {
-                    "startLine": 1692,
+                    "startLine": 1700,
                     "startColumn": 4,
-                    "startOffset": 124447,
-                    "endLine": 1695,
+                    "startOffset": 124858,
+                    "endLine": 1703,
                     "endColumn": 12,
-                    "endOffset": 124646
+                    "endOffset": 125057
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9310,11 +9331,11 @@
             },
             {
                 "to": {
-                    "startLine": 1696,
+                    "startLine": 1704,
                     "startColumn": 4,
-                    "startOffset": 124651,
+                    "startOffset": 125062,
                     "endColumn": 68,
-                    "endOffset": 124715
+                    "endOffset": 125126
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9329,12 +9350,12 @@
             },
             {
                 "to": {
-                    "startLine": 1697,
+                    "startLine": 1705,
                     "startColumn": 4,
-                    "startOffset": 124720,
-                    "endLine": 1700,
+                    "startOffset": 125131,
+                    "endLine": 1708,
                     "endColumn": 12,
-                    "endOffset": 124918
+                    "endOffset": 125329
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9350,11 +9371,11 @@
             },
             {
                 "to": {
-                    "startLine": 1701,
+                    "startLine": 1709,
                     "startColumn": 4,
-                    "startOffset": 124923,
+                    "startOffset": 125334,
                     "endColumn": 69,
-                    "endOffset": 124988
+                    "endOffset": 125399
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9369,12 +9390,12 @@
             },
             {
                 "to": {
-                    "startLine": 1702,
+                    "startLine": 1710,
                     "startColumn": 4,
-                    "startOffset": 124993,
-                    "endLine": 1703,
+                    "startOffset": 125404,
+                    "endLine": 1711,
                     "endColumn": 12,
-                    "endOffset": 125128
+                    "endOffset": 125539
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9390,12 +9411,12 @@
             },
             {
                 "to": {
-                    "startLine": 1704,
+                    "startLine": 1712,
                     "startColumn": 4,
-                    "startOffset": 125133,
-                    "endLine": 1705,
+                    "startOffset": 125544,
+                    "endLine": 1713,
                     "endColumn": 12,
-                    "endOffset": 125262
+                    "endOffset": 125673
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9411,11 +9432,11 @@
             },
             {
                 "to": {
-                    "startLine": 1706,
+                    "startLine": 1714,
                     "startColumn": 4,
-                    "startOffset": 125267,
+                    "startOffset": 125678,
                     "endColumn": 95,
-                    "endOffset": 125358
+                    "endOffset": 125769
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9430,11 +9451,11 @@
             },
             {
                 "to": {
-                    "startLine": 1707,
+                    "startLine": 1715,
                     "startColumn": 4,
-                    "startOffset": 125363,
+                    "startOffset": 125774,
                     "endColumn": 111,
-                    "endOffset": 125470
+                    "endOffset": 125881
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9449,11 +9470,11 @@
             },
             {
                 "to": {
-                    "startLine": 1708,
+                    "startLine": 1716,
                     "startColumn": 4,
-                    "startOffset": 125475,
+                    "startOffset": 125886,
                     "endColumn": 99,
-                    "endOffset": 125570
+                    "endOffset": 125981
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9468,11 +9489,11 @@
             },
             {
                 "to": {
-                    "startLine": 1709,
+                    "startLine": 1717,
                     "startColumn": 4,
-                    "startOffset": 125575,
+                    "startOffset": 125986,
                     "endColumn": 115,
-                    "endOffset": 125686
+                    "endOffset": 126097
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9487,11 +9508,11 @@
             },
             {
                 "to": {
-                    "startLine": 1710,
+                    "startLine": 1718,
                     "startColumn": 4,
-                    "startOffset": 125691,
+                    "startOffset": 126102,
                     "endColumn": 95,
-                    "endOffset": 125782
+                    "endOffset": 126193
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9506,11 +9527,11 @@
             },
             {
                 "to": {
-                    "startLine": 1711,
+                    "startLine": 1719,
                     "startColumn": 4,
-                    "startOffset": 125787,
+                    "startOffset": 126198,
                     "endColumn": 111,
-                    "endOffset": 125894
+                    "endOffset": 126305
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9525,12 +9546,12 @@
             },
             {
                 "to": {
-                    "startLine": 1712,
+                    "startLine": 1720,
                     "startColumn": 4,
-                    "startOffset": 125899,
-                    "endLine": 1713,
+                    "startOffset": 126310,
+                    "endLine": 1721,
                     "endColumn": 12,
-                    "endOffset": 126034
+                    "endOffset": 126445
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9546,11 +9567,11 @@
             },
             {
                 "to": {
-                    "startLine": 1714,
+                    "startLine": 1722,
                     "startColumn": 4,
-                    "startOffset": 126039,
+                    "startOffset": 126450,
                     "endColumn": 135,
-                    "endOffset": 126170
+                    "endOffset": 126581
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9565,12 +9586,12 @@
             },
             {
                 "to": {
-                    "startLine": 1715,
+                    "startLine": 1723,
                     "startColumn": 4,
-                    "startOffset": 126175,
-                    "endLine": 1716,
+                    "startOffset": 126586,
+                    "endLine": 1724,
                     "endColumn": 12,
-                    "endOffset": 126334
+                    "endOffset": 126745
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9586,11 +9607,11 @@
             },
             {
                 "to": {
-                    "startLine": 1717,
+                    "startLine": 1725,
                     "startColumn": 4,
-                    "startOffset": 126339,
+                    "startOffset": 126750,
                     "endColumn": 129,
-                    "endOffset": 126464
+                    "endOffset": 126875
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9605,12 +9626,12 @@
             },
             {
                 "to": {
-                    "startLine": 1718,
+                    "startLine": 1726,
                     "startColumn": 4,
-                    "startOffset": 126469,
-                    "endLine": 1719,
+                    "startOffset": 126880,
+                    "endLine": 1727,
                     "endColumn": 12,
-                    "endOffset": 126622
+                    "endOffset": 127033
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9626,12 +9647,12 @@
             },
             {
                 "to": {
-                    "startLine": 1720,
+                    "startLine": 1728,
                     "startColumn": 4,
-                    "startOffset": 126627,
-                    "endLine": 1721,
+                    "startOffset": 127038,
+                    "endLine": 1729,
                     "endColumn": 12,
-                    "endOffset": 126772
+                    "endOffset": 127183
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9647,11 +9668,11 @@
             },
             {
                 "to": {
-                    "startLine": 1722,
+                    "startLine": 1730,
                     "startColumn": 4,
-                    "startOffset": 126777,
+                    "startOffset": 127188,
                     "endColumn": 140,
-                    "endOffset": 126913
+                    "endOffset": 127324
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9666,12 +9687,12 @@
             },
             {
                 "to": {
-                    "startLine": 1723,
+                    "startLine": 1731,
                     "startColumn": 4,
-                    "startOffset": 126918,
-                    "endLine": 1724,
+                    "startOffset": 127329,
+                    "endLine": 1732,
                     "endColumn": 12,
-                    "endOffset": 127057
+                    "endOffset": 127468
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9687,11 +9708,11 @@
             },
             {
                 "to": {
-                    "startLine": 1725,
+                    "startLine": 1733,
                     "startColumn": 4,
-                    "startOffset": 127062,
+                    "startOffset": 127473,
                     "endColumn": 134,
-                    "endOffset": 127192
+                    "endOffset": 127603
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9706,11 +9727,11 @@
             },
             {
                 "to": {
-                    "startLine": 1726,
+                    "startLine": 1734,
                     "startColumn": 4,
-                    "startOffset": 127197,
+                    "startOffset": 127608,
                     "endColumn": 111,
-                    "endOffset": 127304
+                    "endOffset": 127715
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9725,11 +9746,11 @@
             },
             {
                 "to": {
-                    "startLine": 1727,
+                    "startLine": 1735,
                     "startColumn": 4,
-                    "startOffset": 127309,
+                    "startOffset": 127720,
                     "endColumn": 127,
-                    "endOffset": 127432
+                    "endOffset": 127843
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9744,12 +9765,12 @@
             },
             {
                 "to": {
-                    "startLine": 1728,
+                    "startLine": 1736,
                     "startColumn": 4,
-                    "startOffset": 127437,
-                    "endLine": 1729,
+                    "startOffset": 127848,
+                    "endLine": 1737,
                     "endColumn": 12,
-                    "endOffset": 127568
+                    "endOffset": 127979
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9765,11 +9786,11 @@
             },
             {
                 "to": {
-                    "startLine": 1730,
+                    "startLine": 1738,
                     "startColumn": 4,
-                    "startOffset": 127573,
+                    "startOffset": 127984,
                     "endColumn": 131,
-                    "endOffset": 127700
+                    "endOffset": 128111
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9784,11 +9805,11 @@
             },
             {
                 "to": {
-                    "startLine": 1731,
+                    "startLine": 1739,
                     "startColumn": 4,
-                    "startOffset": 127705,
+                    "startOffset": 128116,
                     "endColumn": 129,
-                    "endOffset": 127830
+                    "endOffset": 128241
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9803,11 +9824,11 @@
             },
             {
                 "to": {
-                    "startLine": 1732,
+                    "startLine": 1740,
                     "startColumn": 4,
-                    "startOffset": 127835,
+                    "startOffset": 128246,
                     "endColumn": 129,
-                    "endOffset": 127960
+                    "endOffset": 128371
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9822,11 +9843,11 @@
             },
             {
                 "to": {
-                    "startLine": 1733,
+                    "startLine": 1741,
                     "startColumn": 4,
-                    "startOffset": 127965,
+                    "startOffset": 128376,
                     "endColumn": 111,
-                    "endOffset": 128072
+                    "endOffset": 128483
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9841,11 +9862,11 @@
             },
             {
                 "to": {
-                    "startLine": 1734,
+                    "startLine": 1742,
                     "startColumn": 4,
-                    "startOffset": 128077,
+                    "startOffset": 128488,
                     "endColumn": 139,
-                    "endOffset": 128212
+                    "endOffset": 128623
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9860,11 +9881,11 @@
             },
             {
                 "to": {
-                    "startLine": 1735,
+                    "startLine": 1743,
                     "startColumn": 4,
-                    "startOffset": 128217,
+                    "startOffset": 128628,
                     "endColumn": 67,
-                    "endOffset": 128280
+                    "endOffset": 128691
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9879,11 +9900,11 @@
             },
             {
                 "to": {
-                    "startLine": 1736,
+                    "startLine": 1744,
                     "startColumn": 4,
-                    "startOffset": 128285,
+                    "startOffset": 128696,
                     "endColumn": 72,
-                    "endOffset": 128353
+                    "endOffset": 128764
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9898,11 +9919,11 @@
             },
             {
                 "to": {
-                    "startLine": 1737,
+                    "startLine": 1745,
                     "startColumn": 4,
-                    "startOffset": 128358,
+                    "startOffset": 128769,
                     "endColumn": 73,
-                    "endOffset": 128427
+                    "endOffset": 128838
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9917,11 +9938,11 @@
             },
             {
                 "to": {
-                    "startLine": 1738,
+                    "startLine": 1746,
                     "startColumn": 4,
-                    "startOffset": 128432,
+                    "startOffset": 128843,
                     "endColumn": 72,
-                    "endOffset": 128500
+                    "endOffset": 128911
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9936,11 +9957,11 @@
             },
             {
                 "to": {
-                    "startLine": 1739,
+                    "startLine": 1747,
                     "startColumn": 4,
-                    "startOffset": 128505,
+                    "startOffset": 128916,
                     "endColumn": 73,
-                    "endOffset": 128574
+                    "endOffset": 128985
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9955,12 +9976,12 @@
             },
             {
                 "to": {
-                    "startLine": 1740,
+                    "startLine": 1748,
                     "startColumn": 4,
-                    "startOffset": 128579,
-                    "endLine": 1741,
+                    "startOffset": 128990,
+                    "endLine": 1749,
                     "endColumn": 12,
-                    "endOffset": 128720
+                    "endOffset": 129131
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9976,12 +9997,12 @@
             },
             {
                 "to": {
-                    "startLine": 1742,
+                    "startLine": 1750,
                     "startColumn": 4,
-                    "startOffset": 128725,
-                    "endLine": 1743,
+                    "startOffset": 129136,
+                    "endLine": 1751,
                     "endColumn": 12,
-                    "endOffset": 128864
+                    "endOffset": 129275
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -9997,12 +10018,12 @@
             },
             {
                 "to": {
-                    "startLine": 1744,
+                    "startLine": 1752,
                     "startColumn": 4,
-                    "startOffset": 128869,
-                    "endLine": 1745,
+                    "startOffset": 129280,
+                    "endLine": 1753,
                     "endColumn": 12,
-                    "endOffset": 129002
+                    "endOffset": 129413
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10018,11 +10039,11 @@
             },
             {
                 "to": {
-                    "startLine": 1746,
+                    "startLine": 1754,
                     "startColumn": 4,
-                    "startOffset": 129007,
+                    "startOffset": 129418,
                     "endColumn": 25,
-                    "endOffset": 129028
+                    "endOffset": 129439
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -10037,11 +10058,11 @@
             },
             {
                 "to": {
-                    "startLine": 1747,
+                    "startLine": 1755,
                     "startColumn": 4,
-                    "startOffset": 129033,
+                    "startOffset": 129444,
                     "endColumn": 65,
-                    "endOffset": 129094
+                    "endOffset": 129505
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10056,11 +10077,11 @@
             },
             {
                 "to": {
-                    "startLine": 1748,
+                    "startLine": 1756,
                     "startColumn": 4,
-                    "startOffset": 129099,
+                    "startOffset": 129510,
                     "endColumn": 89,
-                    "endOffset": 129184
+                    "endOffset": 129595
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10075,11 +10096,11 @@
             },
             {
                 "to": {
-                    "startLine": 1749,
+                    "startLine": 1757,
                     "startColumn": 4,
-                    "startOffset": 129189,
+                    "startOffset": 129600,
                     "endColumn": 75,
-                    "endOffset": 129260
+                    "endOffset": 129671
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10094,11 +10115,11 @@
             },
             {
                 "to": {
-                    "startLine": 1750,
+                    "startLine": 1758,
                     "startColumn": 4,
-                    "startOffset": 129265,
+                    "startOffset": 129676,
                     "endColumn": 103,
-                    "endOffset": 129364
+                    "endOffset": 129775
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10113,11 +10134,11 @@
             },
             {
                 "to": {
-                    "startLine": 1751,
+                    "startLine": 1759,
                     "startColumn": 4,
-                    "startOffset": 129369,
+                    "startOffset": 129780,
                     "endColumn": 89,
-                    "endOffset": 129454
+                    "endOffset": 129865
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10132,11 +10153,11 @@
             },
             {
                 "to": {
-                    "startLine": 1752,
+                    "startLine": 1760,
                     "startColumn": 4,
-                    "startOffset": 129459,
+                    "startOffset": 129870,
                     "endColumn": 101,
-                    "endOffset": 129556
+                    "endOffset": 129967
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10151,11 +10172,11 @@
             },
             {
                 "to": {
-                    "startLine": 1753,
+                    "startLine": 1761,
                     "startColumn": 4,
-                    "startOffset": 129561,
+                    "startOffset": 129972,
                     "endColumn": 107,
-                    "endOffset": 129664
+                    "endOffset": 130075
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10170,11 +10191,11 @@
             },
             {
                 "to": {
-                    "startLine": 1754,
+                    "startLine": 1762,
                     "startColumn": 4,
-                    "startOffset": 129669,
+                    "startOffset": 130080,
                     "endColumn": 107,
-                    "endOffset": 129772
+                    "endOffset": 130183
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10189,11 +10210,11 @@
             },
             {
                 "to": {
-                    "startLine": 1755,
+                    "startLine": 1763,
                     "startColumn": 4,
-                    "startOffset": 129777,
+                    "startOffset": 130188,
                     "endColumn": 99,
-                    "endOffset": 129872
+                    "endOffset": 130283
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10208,11 +10229,11 @@
             },
             {
                 "to": {
-                    "startLine": 1756,
+                    "startLine": 1764,
                     "startColumn": 4,
-                    "startOffset": 129877,
+                    "startOffset": 130288,
                     "endColumn": 79,
-                    "endOffset": 129952
+                    "endOffset": 130363
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10227,11 +10248,11 @@
             },
             {
                 "to": {
-                    "startLine": 1757,
+                    "startLine": 1765,
                     "startColumn": 4,
-                    "startOffset": 129957,
+                    "startOffset": 130368,
                     "endColumn": 91,
-                    "endOffset": 130044
+                    "endOffset": 130455
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10246,11 +10267,11 @@
             },
             {
                 "to": {
-                    "startLine": 1758,
+                    "startLine": 1766,
                     "startColumn": 4,
-                    "startOffset": 130049,
+                    "startOffset": 130460,
                     "endColumn": 97,
-                    "endOffset": 130142
+                    "endOffset": 130553
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10265,12 +10286,12 @@
             },
             {
                 "to": {
-                    "startLine": 1759,
+                    "startLine": 1767,
                     "startColumn": 4,
-                    "startOffset": 130147,
-                    "endLine": 1760,
+                    "startOffset": 130558,
+                    "endLine": 1768,
                     "endColumn": 12,
-                    "endOffset": 130252
+                    "endOffset": 130663
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10286,11 +10307,11 @@
             },
             {
                 "to": {
-                    "startLine": 1761,
+                    "startLine": 1769,
                     "startColumn": 4,
-                    "startOffset": 130257,
+                    "startOffset": 130668,
                     "endColumn": 77,
-                    "endOffset": 130330
+                    "endOffset": 130741
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10305,11 +10326,11 @@
             },
             {
                 "to": {
-                    "startLine": 1762,
+                    "startLine": 1770,
                     "startColumn": 4,
-                    "startOffset": 130335,
+                    "startOffset": 130746,
                     "endColumn": 105,
-                    "endOffset": 130436
+                    "endOffset": 130847
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10324,11 +10345,11 @@
             },
             {
                 "to": {
-                    "startLine": 1763,
+                    "startLine": 1771,
                     "startColumn": 4,
-                    "startOffset": 130441,
+                    "startOffset": 130852,
                     "endColumn": 91,
-                    "endOffset": 130528
+                    "endOffset": 130939
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10343,11 +10364,11 @@
             },
             {
                 "to": {
-                    "startLine": 1764,
+                    "startLine": 1772,
                     "startColumn": 4,
-                    "startOffset": 130533,
+                    "startOffset": 130944,
                     "endColumn": 103,
-                    "endOffset": 130632
+                    "endOffset": 131043
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10362,11 +10383,11 @@
             },
             {
                 "to": {
-                    "startLine": 1765,
+                    "startLine": 1773,
                     "startColumn": 4,
-                    "startOffset": 130637,
+                    "startOffset": 131048,
                     "endColumn": 109,
-                    "endOffset": 130742
+                    "endOffset": 131153
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10381,12 +10402,12 @@
             },
             {
                 "to": {
-                    "startLine": 1766,
+                    "startLine": 1774,
                     "startColumn": 4,
-                    "startOffset": 130747,
-                    "endLine": 1767,
+                    "startOffset": 131158,
+                    "endLine": 1775,
                     "endColumn": 12,
-                    "endOffset": 130864
+                    "endOffset": 131275
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10402,12 +10423,12 @@
             },
             {
                 "to": {
-                    "startLine": 1768,
+                    "startLine": 1776,
                     "startColumn": 4,
-                    "startOffset": 130869,
-                    "endLine": 1771,
+                    "startOffset": 131280,
+                    "endLine": 1779,
                     "endColumn": 12,
-                    "endOffset": 131027
+                    "endOffset": 131438
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10423,12 +10444,12 @@
             },
             {
                 "to": {
-                    "startLine": 1772,
+                    "startLine": 1780,
                     "startColumn": 4,
-                    "startOffset": 131032,
-                    "endLine": 1775,
+                    "startOffset": 131443,
+                    "endLine": 1783,
                     "endColumn": 12,
-                    "endOffset": 131184
+                    "endOffset": 131595
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10444,11 +10465,11 @@
             },
             {
                 "to": {
-                    "startLine": 1776,
+                    "startLine": 1784,
                     "startColumn": 4,
-                    "startOffset": 131189,
+                    "startOffset": 131600,
                     "endColumn": 34,
-                    "endOffset": 131219
+                    "endOffset": 131630
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -10463,12 +10484,12 @@
             },
             {
                 "to": {
-                    "startLine": 1777,
+                    "startLine": 1785,
                     "startColumn": 4,
-                    "startOffset": 131224,
-                    "endLine": 1783,
+                    "startOffset": 131635,
+                    "endLine": 1791,
                     "endColumn": 10,
-                    "endOffset": 131637
+                    "endOffset": 132048
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -10484,12 +10505,12 @@
             },
             {
                 "to": {
-                    "startLine": 1784,
+                    "startLine": 1792,
                     "startColumn": 4,
-                    "startOffset": 131642,
-                    "endLine": 1790,
+                    "startOffset": 132053,
+                    "endLine": 1798,
                     "endColumn": 10,
-                    "endOffset": 132015
+                    "endOffset": 132426
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -10505,12 +10526,12 @@
             },
             {
                 "to": {
-                    "startLine": 1791,
+                    "startLine": 1799,
                     "startColumn": 4,
-                    "startOffset": 132020,
-                    "endLine": 1793,
+                    "startOffset": 132431,
+                    "endLine": 1801,
                     "endColumn": 10,
-                    "endOffset": 132192
+                    "endOffset": 132603
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -10526,12 +10547,12 @@
             },
             {
                 "to": {
-                    "startLine": 1794,
+                    "startLine": 1802,
                     "startColumn": 4,
-                    "startOffset": 132197,
-                    "endLine": 1796,
+                    "startOffset": 132608,
+                    "endLine": 1804,
                     "endColumn": 10,
-                    "endOffset": 132371
+                    "endOffset": 132782
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -10547,12 +10568,12 @@
             },
             {
                 "to": {
-                    "startLine": 1797,
+                    "startLine": 1805,
                     "startColumn": 4,
-                    "startOffset": 132376,
-                    "endLine": 1799,
+                    "startOffset": 132787,
+                    "endLine": 1807,
                     "endColumn": 12,
-                    "endOffset": 132554
+                    "endOffset": 132965
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -10568,12 +10589,12 @@
             },
             {
                 "to": {
-                    "startLine": 1800,
+                    "startLine": 1808,
                     "startColumn": 4,
-                    "startOffset": 132559,
-                    "endLine": 1805,
+                    "startOffset": 132970,
+                    "endLine": 1813,
                     "endColumn": 12,
-                    "endOffset": 132919
+                    "endOffset": 133330
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/values/values.xml",
@@ -10589,11 +10610,11 @@
             },
             {
                 "to": {
-                    "startLine": 1806,
+                    "startLine": 1814,
                     "startColumn": 4,
-                    "startOffset": 132924,
+                    "startOffset": 133335,
                     "endColumn": 79,
-                    "endOffset": 132999
+                    "endOffset": 133410
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10608,11 +10629,11 @@
             },
             {
                 "to": {
-                    "startLine": 1807,
+                    "startLine": 1815,
                     "startColumn": 4,
-                    "startOffset": 133004,
+                    "startOffset": 133415,
                     "endColumn": 99,
-                    "endOffset": 133099
+                    "endOffset": 133510
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10627,11 +10648,11 @@
             },
             {
                 "to": {
-                    "startLine": 1808,
+                    "startLine": 1816,
                     "startColumn": 4,
-                    "startOffset": 133104,
+                    "startOffset": 133515,
                     "endColumn": 89,
-                    "endOffset": 133189
+                    "endOffset": 133600
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10646,11 +10667,11 @@
             },
             {
                 "to": {
-                    "startLine": 1809,
+                    "startLine": 1817,
                     "startColumn": 4,
-                    "startOffset": 133194,
+                    "startOffset": 133605,
                     "endColumn": 109,
-                    "endOffset": 133299
+                    "endOffset": 133710
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10665,11 +10686,11 @@
             },
             {
                 "to": {
-                    "startLine": 1810,
+                    "startLine": 1818,
                     "startColumn": 4,
-                    "startOffset": 133304,
+                    "startOffset": 133715,
                     "endColumn": 93,
-                    "endOffset": 133393
+                    "endOffset": 133804
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10684,11 +10705,11 @@
             },
             {
                 "to": {
-                    "startLine": 1811,
+                    "startLine": 1819,
                     "startColumn": 4,
-                    "startOffset": 133398,
+                    "startOffset": 133809,
                     "endColumn": 105,
-                    "endOffset": 133499
+                    "endOffset": 133910
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10703,11 +10724,11 @@
             },
             {
                 "to": {
-                    "startLine": 1812,
+                    "startLine": 1820,
                     "startColumn": 4,
-                    "startOffset": 133504,
+                    "startOffset": 133915,
                     "endColumn": 91,
-                    "endOffset": 133591
+                    "endOffset": 134002
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10722,12 +10743,12 @@
             },
             {
                 "to": {
-                    "startLine": 1813,
+                    "startLine": 1821,
                     "startColumn": 4,
-                    "startOffset": 133596,
-                    "endLine": 1814,
+                    "startOffset": 134007,
+                    "endLine": 1822,
                     "endColumn": 12,
-                    "endOffset": 133691
+                    "endOffset": 134102
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10743,12 +10764,12 @@
             },
             {
                 "to": {
-                    "startLine": 1815,
+                    "startLine": 1823,
                     "startColumn": 4,
-                    "startOffset": 133696,
-                    "endLine": 1816,
+                    "startOffset": 134107,
+                    "endLine": 1824,
                     "endColumn": 12,
-                    "endOffset": 133803
+                    "endOffset": 134214
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10764,12 +10785,12 @@
             },
             {
                 "to": {
-                    "startLine": 1817,
+                    "startLine": 1825,
                     "startColumn": 4,
-                    "startOffset": 133808,
-                    "endLine": 1818,
+                    "startOffset": 134219,
+                    "endLine": 1826,
                     "endColumn": 12,
-                    "endOffset": 133917
+                    "endOffset": 134328
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10785,12 +10806,12 @@
             },
             {
                 "to": {
-                    "startLine": 1819,
+                    "startLine": 1827,
                     "startColumn": 4,
-                    "startOffset": 133922,
-                    "endLine": 1820,
+                    "startOffset": 134333,
+                    "endLine": 1828,
                     "endColumn": 12,
-                    "endOffset": 134033
+                    "endOffset": 134444
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10806,12 +10827,12 @@
             },
             {
                 "to": {
-                    "startLine": 1821,
+                    "startLine": 1829,
                     "startColumn": 4,
-                    "startOffset": 134038,
-                    "endLine": 1822,
+                    "startOffset": 134449,
+                    "endLine": 1830,
                     "endColumn": 12,
-                    "endOffset": 134149
+                    "endOffset": 134560
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10827,11 +10848,11 @@
             },
             {
                 "to": {
-                    "startLine": 1823,
+                    "startLine": 1831,
                     "startColumn": 4,
-                    "startOffset": 134154,
+                    "startOffset": 134565,
                     "endColumn": 93,
-                    "endOffset": 134243
+                    "endOffset": 134654
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10846,11 +10867,11 @@
             },
             {
                 "to": {
-                    "startLine": 1824,
+                    "startLine": 1832,
                     "startColumn": 4,
-                    "startOffset": 134248,
+                    "startOffset": 134659,
                     "endColumn": 113,
-                    "endOffset": 134357
+                    "endOffset": 134768
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10865,11 +10886,11 @@
             },
             {
                 "to": {
-                    "startLine": 1825,
+                    "startLine": 1833,
                     "startColumn": 4,
-                    "startOffset": 134362,
+                    "startOffset": 134773,
                     "endColumn": 111,
-                    "endOffset": 134469
+                    "endOffset": 134880
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10884,12 +10905,12 @@
             },
             {
                 "to": {
-                    "startLine": 1826,
+                    "startLine": 1834,
                     "startColumn": 4,
-                    "startOffset": 134474,
-                    "endLine": 1827,
+                    "startOffset": 134885,
+                    "endLine": 1835,
                     "endColumn": 12,
-                    "endOffset": 134571
+                    "endOffset": 134982
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10905,12 +10926,12 @@
             },
             {
                 "to": {
-                    "startLine": 1828,
+                    "startLine": 1836,
                     "startColumn": 4,
-                    "startOffset": 134576,
-                    "endLine": 1829,
+                    "startOffset": 134987,
+                    "endLine": 1837,
                     "endColumn": 12,
-                    "endOffset": 134691
+                    "endOffset": 135102
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10926,12 +10947,12 @@
             },
             {
                 "to": {
-                    "startLine": 1830,
+                    "startLine": 1838,
                     "startColumn": 4,
-                    "startOffset": 134696,
-                    "endLine": 1831,
+                    "startOffset": 135107,
+                    "endLine": 1839,
                     "endColumn": 12,
-                    "endOffset": 134813
+                    "endOffset": 135224
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10947,11 +10968,11 @@
             },
             {
                 "to": {
-                    "startLine": 1832,
+                    "startLine": 1840,
                     "startColumn": 4,
-                    "startOffset": 134818,
+                    "startOffset": 135229,
                     "endColumn": 81,
-                    "endOffset": 134895
+                    "endOffset": 135306
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10966,11 +10987,11 @@
             },
             {
                 "to": {
-                    "startLine": 1833,
+                    "startLine": 1841,
                     "startColumn": 4,
-                    "startOffset": 134900,
+                    "startOffset": 135311,
                     "endColumn": 103,
-                    "endOffset": 134999
+                    "endOffset": 135410
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -10985,11 +11006,11 @@
             },
             {
                 "to": {
-                    "startLine": 1834,
+                    "startLine": 1842,
                     "startColumn": 4,
-                    "startOffset": 135004,
+                    "startOffset": 135415,
                     "endColumn": 119,
-                    "endOffset": 135119
+                    "endOffset": 135530
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11004,11 +11025,11 @@
             },
             {
                 "to": {
-                    "startLine": 1835,
+                    "startLine": 1843,
                     "startColumn": 4,
-                    "startOffset": 135124,
+                    "startOffset": 135535,
                     "endColumn": 125,
-                    "endOffset": 135245
+                    "endOffset": 135656
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11023,11 +11044,11 @@
             },
             {
                 "to": {
-                    "startLine": 1836,
+                    "startLine": 1844,
                     "startColumn": 4,
-                    "startOffset": 135250,
+                    "startOffset": 135661,
                     "endColumn": 97,
-                    "endOffset": 135343
+                    "endOffset": 135754
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11042,11 +11063,11 @@
             },
             {
                 "to": {
-                    "startLine": 1837,
+                    "startLine": 1845,
                     "startColumn": 4,
-                    "startOffset": 135348,
+                    "startOffset": 135759,
                     "endColumn": 93,
-                    "endOffset": 135437
+                    "endOffset": 135848
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11061,11 +11082,11 @@
             },
             {
                 "to": {
-                    "startLine": 1838,
+                    "startLine": 1846,
                     "startColumn": 4,
-                    "startOffset": 135442,
+                    "startOffset": 135853,
                     "endColumn": 87,
-                    "endOffset": 135525
+                    "endOffset": 135936
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11080,11 +11101,11 @@
             },
             {
                 "to": {
-                    "startLine": 1839,
+                    "startLine": 1847,
                     "startColumn": 4,
-                    "startOffset": 135530,
+                    "startOffset": 135941,
                     "endColumn": 111,
-                    "endOffset": 135637
+                    "endOffset": 136048
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11099,11 +11120,11 @@
             },
             {
                 "to": {
-                    "startLine": 1840,
+                    "startLine": 1848,
                     "startColumn": 4,
-                    "startOffset": 135642,
+                    "startOffset": 136053,
                     "endColumn": 115,
-                    "endOffset": 135753
+                    "endOffset": 136164
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11118,11 +11139,11 @@
             },
             {
                 "to": {
-                    "startLine": 1841,
+                    "startLine": 1849,
                     "startColumn": 4,
-                    "startOffset": 135758,
+                    "startOffset": 136169,
                     "endColumn": 121,
-                    "endOffset": 135875
+                    "endOffset": 136286
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11137,11 +11158,11 @@
             },
             {
                 "to": {
-                    "startLine": 1842,
+                    "startLine": 1850,
                     "startColumn": 4,
-                    "startOffset": 135880,
+                    "startOffset": 136291,
                     "endColumn": 111,
-                    "endOffset": 135987
+                    "endOffset": 136398
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11156,12 +11177,12 @@
             },
             {
                 "to": {
-                    "startLine": 1843,
+                    "startLine": 1851,
                     "startColumn": 4,
-                    "startOffset": 135992,
-                    "endLine": 1845,
+                    "startOffset": 136403,
+                    "endLine": 1853,
                     "endColumn": 12,
-                    "endOffset": 136162
+                    "endOffset": 136573
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11177,11 +11198,11 @@
             },
             {
                 "to": {
-                    "startLine": 1846,
+                    "startLine": 1854,
                     "startColumn": 4,
-                    "startOffset": 136167,
+                    "startOffset": 136578,
                     "endColumn": 115,
-                    "endOffset": 136278
+                    "endOffset": 136689
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11196,11 +11217,11 @@
             },
             {
                 "to": {
-                    "startLine": 1847,
+                    "startLine": 1855,
                     "startColumn": 4,
-                    "startOffset": 136283,
+                    "startOffset": 136694,
                     "endColumn": 85,
-                    "endOffset": 136364
+                    "endOffset": 136775
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11215,11 +11236,11 @@
             },
             {
                 "to": {
-                    "startLine": 1848,
+                    "startLine": 1856,
                     "startColumn": 4,
-                    "startOffset": 136369,
+                    "startOffset": 136780,
                     "endColumn": 91,
-                    "endOffset": 136456
+                    "endOffset": 136867
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11234,12 +11255,12 @@
             },
             {
                 "to": {
-                    "startLine": 1849,
+                    "startLine": 1857,
                     "startColumn": 4,
-                    "startOffset": 136461,
-                    "endLine": 1850,
+                    "startOffset": 136872,
+                    "endLine": 1858,
                     "endColumn": 12,
-                    "endOffset": 136568
+                    "endOffset": 136979
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11255,12 +11276,12 @@
             },
             {
                 "to": {
-                    "startLine": 1851,
+                    "startLine": 1859,
                     "startColumn": 4,
-                    "startOffset": 136573,
-                    "endLine": 1852,
+                    "startOffset": 136984,
+                    "endLine": 1860,
                     "endColumn": 12,
-                    "endOffset": 136692
+                    "endOffset": 137103
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11276,11 +11297,11 @@
             },
             {
                 "to": {
-                    "startLine": 1853,
+                    "startLine": 1861,
                     "startColumn": 4,
-                    "startOffset": 136697,
+                    "startOffset": 137108,
                     "endColumn": 66,
-                    "endOffset": 136759
+                    "endOffset": 137170
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11295,12 +11316,12 @@
             },
             {
                 "to": {
-                    "startLine": 1854,
+                    "startLine": 1862,
                     "startColumn": 4,
-                    "startOffset": 136764,
-                    "endLine": 1855,
+                    "startOffset": 137175,
+                    "endLine": 1863,
                     "endColumn": 12,
-                    "endOffset": 136885
+                    "endOffset": 137296
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11316,11 +11337,11 @@
             },
             {
                 "to": {
-                    "startLine": 1856,
+                    "startLine": 1864,
                     "startColumn": 4,
-                    "startOffset": 136890,
+                    "startOffset": 137301,
                     "endColumn": 67,
-                    "endOffset": 136953
+                    "endOffset": 137364
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11335,12 +11356,12 @@
             },
             {
                 "to": {
-                    "startLine": 1857,
+                    "startLine": 1865,
                     "startColumn": 4,
-                    "startOffset": 136958,
-                    "endLine": 1858,
+                    "startOffset": 137369,
+                    "endLine": 1866,
                     "endColumn": 12,
-                    "endOffset": 137081
+                    "endOffset": 137492
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11356,12 +11377,12 @@
             },
             {
                 "to": {
-                    "startLine": 1859,
+                    "startLine": 1867,
                     "startColumn": 4,
-                    "startOffset": 137086,
-                    "endLine": 1860,
+                    "startOffset": 137497,
+                    "endLine": 1868,
                     "endColumn": 12,
-                    "endOffset": 137225
+                    "endOffset": 137636
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11377,12 +11398,12 @@
             },
             {
                 "to": {
-                    "startLine": 1861,
+                    "startLine": 1869,
                     "startColumn": 4,
-                    "startOffset": 137230,
-                    "endLine": 1862,
+                    "startOffset": 137641,
+                    "endLine": 1870,
                     "endColumn": 12,
-                    "endOffset": 137353
+                    "endOffset": 137764
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11398,11 +11419,11 @@
             },
             {
                 "to": {
-                    "startLine": 1863,
+                    "startLine": 1871,
                     "startColumn": 4,
-                    "startOffset": 137358,
+                    "startOffset": 137769,
                     "endColumn": 68,
-                    "endOffset": 137422
+                    "endOffset": 137833
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11417,11 +11438,11 @@
             },
             {
                 "to": {
-                    "startLine": 1864,
+                    "startLine": 1872,
                     "startColumn": 4,
-                    "startOffset": 137427,
+                    "startOffset": 137838,
                     "endColumn": 94,
-                    "endOffset": 137517
+                    "endOffset": 137928
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11436,11 +11457,11 @@
             },
             {
                 "to": {
-                    "startLine": 1865,
+                    "startLine": 1873,
                     "startColumn": 4,
-                    "startOffset": 137522,
+                    "startOffset": 137933,
                     "endColumn": 114,
-                    "endOffset": 137632
+                    "endOffset": 138043
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11455,11 +11476,11 @@
             },
             {
                 "to": {
-                    "startLine": 1866,
+                    "startLine": 1874,
                     "startColumn": 4,
-                    "startOffset": 137637,
+                    "startOffset": 138048,
                     "endColumn": 112,
-                    "endOffset": 137745
+                    "endOffset": 138156
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11474,11 +11495,11 @@
             },
             {
                 "to": {
-                    "startLine": 1867,
+                    "startLine": 1875,
                     "startColumn": 4,
-                    "startOffset": 137750,
+                    "startOffset": 138161,
                     "endColumn": 98,
-                    "endOffset": 137844
+                    "endOffset": 138255
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11493,11 +11514,11 @@
             },
             {
                 "to": {
-                    "startLine": 1868,
+                    "startLine": 1876,
                     "startColumn": 4,
-                    "startOffset": 137849,
+                    "startOffset": 138260,
                     "endColumn": 108,
-                    "endOffset": 137953
+                    "endOffset": 138364
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11512,11 +11533,11 @@
             },
             {
                 "to": {
-                    "startLine": 1869,
+                    "startLine": 1877,
                     "startColumn": 4,
-                    "startOffset": 137958,
+                    "startOffset": 138369,
                     "endColumn": 110,
-                    "endOffset": 138064
+                    "endOffset": 138475
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11531,11 +11552,11 @@
             },
             {
                 "to": {
-                    "startLine": 1870,
+                    "startLine": 1878,
                     "startColumn": 4,
-                    "startOffset": 138069,
+                    "startOffset": 138480,
                     "endColumn": 110,
-                    "endOffset": 138175
+                    "endOffset": 138586
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11550,11 +11571,11 @@
             },
             {
                 "to": {
-                    "startLine": 1871,
+                    "startLine": 1879,
                     "startColumn": 4,
-                    "startOffset": 138180,
+                    "startOffset": 138591,
                     "endColumn": 100,
-                    "endOffset": 138276
+                    "endOffset": 138687
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11569,11 +11590,11 @@
             },
             {
                 "to": {
-                    "startLine": 1872,
+                    "startLine": 1880,
                     "startColumn": 4,
-                    "startOffset": 138281,
+                    "startOffset": 138692,
                     "endColumn": 104,
-                    "endOffset": 138381
+                    "endOffset": 138792
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11588,11 +11609,11 @@
             },
             {
                 "to": {
-                    "startLine": 1873,
+                    "startLine": 1881,
                     "startColumn": 4,
-                    "startOffset": 138386,
+                    "startOffset": 138797,
                     "endColumn": 99,
-                    "endOffset": 138481
+                    "endOffset": 138892
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11607,12 +11628,12 @@
             },
             {
                 "to": {
-                    "startLine": 1874,
+                    "startLine": 1882,
                     "startColumn": 4,
-                    "startOffset": 138486,
-                    "endLine": 1875,
+                    "startOffset": 138897,
+                    "endLine": 1883,
                     "endColumn": 12,
-                    "endOffset": 138611
+                    "endOffset": 139022
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11628,11 +11649,11 @@
             },
             {
                 "to": {
-                    "startLine": 1876,
+                    "startLine": 1884,
                     "startColumn": 4,
-                    "startOffset": 138616,
+                    "startOffset": 139027,
                     "endColumn": 90,
-                    "endOffset": 138702
+                    "endOffset": 139113
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11647,11 +11668,11 @@
             },
             {
                 "to": {
-                    "startLine": 1877,
+                    "startLine": 1885,
                     "startColumn": 4,
-                    "startOffset": 138707,
+                    "startOffset": 139118,
                     "endColumn": 122,
-                    "endOffset": 138825
+                    "endOffset": 139236
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11666,11 +11687,11 @@
             },
             {
                 "to": {
-                    "startLine": 1878,
+                    "startLine": 1886,
                     "startColumn": 4,
-                    "startOffset": 138830,
+                    "startOffset": 139241,
                     "endColumn": 93,
-                    "endOffset": 138919
+                    "endOffset": 139330
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11685,12 +11706,12 @@
             },
             {
                 "to": {
-                    "startLine": 1879,
+                    "startLine": 1887,
                     "startColumn": 4,
-                    "startOffset": 138924,
-                    "endLine": 1880,
+                    "startOffset": 139335,
+                    "endLine": 1888,
                     "endColumn": 12,
-                    "endOffset": 139031
+                    "endOffset": 139442
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11706,11 +11727,11 @@
             },
             {
                 "to": {
-                    "startLine": 1881,
+                    "startLine": 1889,
                     "startColumn": 4,
-                    "startOffset": 139036,
+                    "startOffset": 139447,
                     "endColumn": 85,
-                    "endOffset": 139117
+                    "endOffset": 139528
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11725,11 +11746,11 @@
             },
             {
                 "to": {
-                    "startLine": 1882,
+                    "startLine": 1890,
                     "startColumn": 4,
-                    "startOffset": 139122,
+                    "startOffset": 139533,
                     "endColumn": 103,
-                    "endOffset": 139221
+                    "endOffset": 139632
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11744,11 +11765,11 @@
             },
             {
                 "to": {
-                    "startLine": 1883,
+                    "startLine": 1891,
                     "startColumn": 4,
-                    "startOffset": 139226,
+                    "startOffset": 139637,
                     "endColumn": 95,
-                    "endOffset": 139317
+                    "endOffset": 139728
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11763,11 +11784,11 @@
             },
             {
                 "to": {
-                    "startLine": 1884,
+                    "startLine": 1892,
                     "startColumn": 4,
-                    "startOffset": 139322,
+                    "startOffset": 139733,
                     "endColumn": 74,
-                    "endOffset": 139392
+                    "endOffset": 139803
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11782,11 +11803,11 @@
             },
             {
                 "to": {
-                    "startLine": 1885,
+                    "startLine": 1893,
                     "startColumn": 4,
-                    "startOffset": 139397,
+                    "startOffset": 139808,
                     "endColumn": 69,
-                    "endOffset": 139462
+                    "endOffset": 139873
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11801,11 +11822,11 @@
             },
             {
                 "to": {
-                    "startLine": 1886,
+                    "startLine": 1894,
                     "startColumn": 4,
-                    "startOffset": 139467,
+                    "startOffset": 139878,
                     "endColumn": 87,
-                    "endOffset": 139550
+                    "endOffset": 139961
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11820,12 +11841,12 @@
             },
             {
                 "to": {
-                    "startLine": 1887,
+                    "startLine": 1895,
                     "startColumn": 4,
-                    "startOffset": 139555,
-                    "endLine": 1888,
+                    "startOffset": 139966,
+                    "endLine": 1896,
                     "endColumn": 12,
-                    "endOffset": 139668
+                    "endOffset": 140079
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11841,12 +11862,12 @@
             },
             {
                 "to": {
-                    "startLine": 1889,
+                    "startLine": 1897,
                     "startColumn": 4,
-                    "startOffset": 139673,
-                    "endLine": 1890,
+                    "startOffset": 140084,
+                    "endLine": 1898,
                     "endColumn": 12,
-                    "endOffset": 139772
+                    "endOffset": 140183
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11862,12 +11883,12 @@
             },
             {
                 "to": {
-                    "startLine": 1891,
+                    "startLine": 1899,
                     "startColumn": 4,
-                    "startOffset": 139777,
-                    "endLine": 1892,
+                    "startOffset": 140188,
+                    "endLine": 1900,
                     "endColumn": 12,
-                    "endOffset": 139876
+                    "endOffset": 140287
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11883,12 +11904,12 @@
             },
             {
                 "to": {
-                    "startLine": 1893,
+                    "startLine": 1901,
                     "startColumn": 4,
-                    "startOffset": 139881,
-                    "endLine": 1894,
+                    "startOffset": 140292,
+                    "endLine": 1902,
                     "endColumn": 12,
-                    "endOffset": 140002
+                    "endOffset": 140413
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11904,11 +11925,11 @@
             },
             {
                 "to": {
-                    "startLine": 1895,
+                    "startLine": 1903,
                     "startColumn": 4,
-                    "startOffset": 140007,
+                    "startOffset": 140418,
                     "endColumn": 87,
-                    "endOffset": 140090
+                    "endOffset": 140501
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11923,11 +11944,11 @@
             },
             {
                 "to": {
-                    "startLine": 1896,
+                    "startLine": 1904,
                     "startColumn": 4,
-                    "startOffset": 140095,
+                    "startOffset": 140506,
                     "endColumn": 107,
-                    "endOffset": 140198
+                    "endOffset": 140609
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11942,11 +11963,11 @@
             },
             {
                 "to": {
-                    "startLine": 1897,
+                    "startLine": 1905,
                     "startColumn": 4,
-                    "startOffset": 140203,
+                    "startOffset": 140614,
                     "endColumn": 99,
-                    "endOffset": 140298
+                    "endOffset": 140709
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11961,11 +11982,11 @@
             },
             {
                 "to": {
-                    "startLine": 1898,
+                    "startLine": 1906,
                     "startColumn": 4,
-                    "startOffset": 140303,
+                    "startOffset": 140714,
                     "endColumn": 89,
-                    "endOffset": 140388
+                    "endOffset": 140799
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11980,11 +12001,11 @@
             },
             {
                 "to": {
-                    "startLine": 1899,
+                    "startLine": 1907,
                     "startColumn": 4,
-                    "startOffset": 140393,
+                    "startOffset": 140804,
                     "endColumn": 109,
-                    "endOffset": 140498
+                    "endOffset": 140909
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -11999,11 +12020,11 @@
             },
             {
                 "to": {
-                    "startLine": 1900,
+                    "startLine": 1908,
                     "startColumn": 4,
-                    "startOffset": 140503,
+                    "startOffset": 140914,
                     "endColumn": 83,
-                    "endOffset": 140582
+                    "endOffset": 140993
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12018,11 +12039,11 @@
             },
             {
                 "to": {
-                    "startLine": 1901,
+                    "startLine": 1909,
                     "startColumn": 4,
-                    "startOffset": 140587,
+                    "startOffset": 140998,
                     "endColumn": 101,
-                    "endOffset": 140684
+                    "endOffset": 141095
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12037,11 +12058,11 @@
             },
             {
                 "to": {
-                    "startLine": 1902,
+                    "startLine": 1910,
                     "startColumn": 4,
-                    "startOffset": 140689,
+                    "startOffset": 141100,
                     "endColumn": 83,
-                    "endOffset": 140768
+                    "endOffset": 141179
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12056,11 +12077,11 @@
             },
             {
                 "to": {
-                    "startLine": 1903,
+                    "startLine": 1911,
                     "startColumn": 4,
-                    "startOffset": 140773,
+                    "startOffset": 141184,
                     "endColumn": 53,
-                    "endOffset": 140822
+                    "endOffset": 141233
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12075,11 +12096,11 @@
             },
             {
                 "to": {
-                    "startLine": 1904,
+                    "startLine": 1912,
                     "startColumn": 4,
-                    "startOffset": 140827,
+                    "startOffset": 141238,
                     "endColumn": 63,
-                    "endOffset": 140886
+                    "endOffset": 141297
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12094,11 +12115,11 @@
             },
             {
                 "to": {
-                    "startLine": 1905,
+                    "startLine": 1913,
                     "startColumn": 4,
-                    "startOffset": 140891,
+                    "startOffset": 141302,
                     "endColumn": 105,
-                    "endOffset": 140992
+                    "endOffset": 141403
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12113,11 +12134,11 @@
             },
             {
                 "to": {
-                    "startLine": 1906,
+                    "startLine": 1914,
                     "startColumn": 4,
-                    "startOffset": 140997,
+                    "startOffset": 141408,
                     "endColumn": 109,
-                    "endOffset": 141102
+                    "endOffset": 141513
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12132,11 +12153,11 @@
             },
             {
                 "to": {
-                    "startLine": 1907,
+                    "startLine": 1915,
                     "startColumn": 4,
-                    "startOffset": 141107,
+                    "startOffset": 141518,
                     "endColumn": 83,
-                    "endOffset": 141186
+                    "endOffset": 141597
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12151,11 +12172,11 @@
             },
             {
                 "to": {
-                    "startLine": 1908,
+                    "startLine": 1916,
                     "startColumn": 4,
-                    "startOffset": 141191,
+                    "startOffset": 141602,
                     "endColumn": 119,
-                    "endOffset": 141306
+                    "endOffset": 141717
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/values/values.xml",
@@ -12170,12 +12191,12 @@
             },
             {
                 "to": {
-                    "startLine": 1909,
+                    "startLine": 1917,
                     "startColumn": 4,
-                    "startOffset": 141311,
-                    "endLine": 1915,
+                    "startOffset": 141722,
+                    "endLine": 1923,
                     "endColumn": 12,
-                    "endOffset": 141665
+                    "endOffset": 142076
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.github.yalantis/ucrop/2.2.1-native/res/values/values.xml",
@@ -12191,12 +12212,12 @@
             },
             {
                 "to": {
-                    "startLine": 1916,
+                    "startLine": 1924,
                     "startColumn": 4,
-                    "startOffset": 141670,
-                    "endLine": 1922,
+                    "startOffset": 142081,
+                    "endLine": 1930,
                     "endColumn": 12,
-                    "endOffset": 142086
+                    "endOffset": 142497
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.github.yalantis/ucrop/2.2.1-native/res/values/values.xml",
@@ -12212,12 +12233,12 @@
             },
             {
                 "to": {
-                    "startLine": 1923,
+                    "startLine": 1931,
                     "startColumn": 4,
-                    "startOffset": 142091,
-                    "endLine": 1930,
+                    "startOffset": 142502,
+                    "endLine": 1938,
                     "endColumn": 12,
-                    "endOffset": 142579
+                    "endOffset": 142990
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.github.yalantis/ucrop/2.2.1-native/res/values/values.xml",
@@ -12233,12 +12254,12 @@
             },
             {
                 "to": {
-                    "startLine": 1931,
+                    "startLine": 1939,
                     "startColumn": 4,
-                    "startOffset": 142584,
-                    "endLine": 1937,
+                    "startOffset": 142995,
+                    "endLine": 1945,
                     "endColumn": 12,
-                    "endOffset": 142931
+                    "endOffset": 143342
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.github.yalantis/ucrop/2.2.1-native/res/values/values.xml",
@@ -12254,12 +12275,12 @@
             },
             {
                 "to": {
-                    "startLine": 1938,
+                    "startLine": 1946,
                     "startColumn": 4,
-                    "startOffset": 142936,
-                    "endLine": 1943,
+                    "startOffset": 143347,
+                    "endLine": 1951,
                     "endColumn": 12,
-                    "endOffset": 143307
+                    "endOffset": 143718
                 },
                 "from": {
                     "file": "/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.github.yalantis/ucrop/2.2.1-native/res/values/values.xml",

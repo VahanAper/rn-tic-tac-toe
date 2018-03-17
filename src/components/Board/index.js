@@ -2,11 +2,13 @@ import React from 'react';
 import {
     View,
     Text,
+    Image,
     Button,
     Dimensions,
     StyleSheet,
 } from 'react-native';
 import ImagePicker from 'react-native-image-crop-picker';
+import ImageSelector from 'react-native-image-picker';
 import isEqual from 'lodash.isequal';
 
 import Tile from '../Tile';
@@ -30,6 +32,7 @@ class Board extends React.Component {
         currentType: 'x',
         type: null,
         winner: null,
+        iconSource: '',
     }
     
     findWinner = () => {
@@ -113,6 +116,40 @@ class Board extends React.Component {
         });
     }
     
+    openImageSelector = () => {
+        const options = {
+            title: 'Select Icon',
+            storageOptions: {
+                skipBackup: true,
+                path: 'images'
+            }
+        };
+        
+        ImageSelector.showImagePicker(options, (response) => {
+          console.log('Response = ', response);
+
+          if (response.didCancel) {
+            console.log('User cancelled image picker');
+          }
+          else if (response.error) {
+            console.log('ImagePicker Error: ', response.error);
+          }
+          else if (response.customButton) {
+            console.log('User tapped custom button: ', response.customButton);
+          }
+          else {
+            let source = { uri: response.uri };
+
+            // You can also display the image using data:
+            // let source = { uri: 'data:image/jpeg;base64,' + response.data };
+
+            this.setState({
+              iconSource: source,
+            });
+          }
+        });
+    }
+    
     render() {
         return (
             <View style={styles.container}>
@@ -122,8 +159,16 @@ class Board extends React.Component {
                         title="Change Image for X"
                     />
                     <Button
-                        onPress={() => {}}
+                        onPress={this.openImageSelector}
                         title="Change Image for O"
+                    />
+                    
+                    <Image
+                        style={{
+                            width: 60,
+                            height: 60,
+                        }}
+                        source={this.state.iconSource}
                     />
                 </View>
                 

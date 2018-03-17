@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Tic Tac Toe needs this access</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This will allow to take a photo for Tic Tac Toe game</string>
 	<key>NSPhotoLibraryUsageDescription</key>

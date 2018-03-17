@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/tictactoe/react-native-image-picker/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4bc7e4c88d8a58037f153bc224b47da51ae40f2f">
+        <dex dex="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/pre-dexed/debug/tictactoe-react-native-image-picker-unspecified_6aecebf73d5562c9296fb1067670ef68f9226d28.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
