@@ -35,6 +35,7 @@ MERGED from [tictactoe:react-native-image-crop-picker:unspecified] /Users/vahan/
 		ADDED from /Users/vahan/Documents/react-native/tic-tac-toe/android/app/src/main/AndroidManifest.xml:10:22-78
 uses-sdk
 ADDED from /Users/vahan/Documents/react-native/tic-tac-toe/android/app/src/main/AndroidManifest.xml:12:5-14:41
+MERGED from [tictactoe:react-native-vector-icons:unspecified] /Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/tictactoe/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [tictactoe:react-native-image-picker:unspecified] /Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/tictactoe/react-native-image-picker/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [tictactoe:react-native-image-crop-picker:unspecified] /Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/tictactoe/react-native-image-crop-picker/unspecified/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.yalantis:ucrop:2.2.1-native] /Users/vahan/Documents/react-native/tic-tac-toe/android/app/build/intermediates/exploded-aar/com.github.yalantis/ucrop/2.2.1-native/AndroidManifest.xml:8:5-10:41

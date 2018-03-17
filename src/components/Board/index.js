@@ -3,13 +3,21 @@ import {
     View,
     Text,
     Image,
-    Button,
+    // Button,
     Dimensions,
     StyleSheet,
+    AsyncStorage,
 } from 'react-native';
 import ImagePicker from 'react-native-image-crop-picker';
 import ImageSelector from 'react-native-image-picker';
 import isEqual from 'lodash.isequal';
+import {
+    Icon,
+    Button,
+} from 'react-native-elements';
+import { connect } from 'react-redux';
+
+import { saveImage } from '../../actions';
 
 import Tile from '../Tile';
 
@@ -25,6 +33,28 @@ const winningOptions = [
 ];
 
 class Board extends React.Component {
+    static navigationOptions = ({ navigation }) => ({
+        title: 'GAME',
+        headerTitle: 'Game',
+        headerRight: (
+            <Button
+                title="Settings"
+                textStyle={{
+                    color: "rgba(0, 122, 255, 1)"
+                }}
+                backgroundColor="rgba(0, 0, 0, 0)"
+                onPress={() => navigation.navigate('settings')}
+            />
+        ),
+        tabBarIcon: ({ tintColor }) => (
+            <Icon
+                size={30}
+                name="videogame-asset"
+                color={tintColor}
+            />
+        )
+    });
+    
     screenWidth = Dimensions.get('window');
     
     state = {
@@ -33,6 +63,45 @@ class Board extends React.Component {
         type: null,
         winner: null,
         iconSource: '',
+        image: {
+            x: require('../Tile/x.png'),
+            o: require('../Tile/o.png'),
+        },
+    }
+    
+    componentDidMount() {
+        
+        console.log('asd2 ::: ');
+        
+        AsyncStorage.getItem('x_path')
+            .then(uri => {
+                
+                console.log('x ::: ', uri);
+                if (uri) {
+                    imagePath = { uri };
+                    
+                    
+                    this.props.saveImage('x_path', uri);
+                    
+                    // this.setState({ image: { ...this.state.image, x: imagePath } });
+                }
+            })
+            .catch(e => console.log(e));
+    
+        AsyncStorage.getItem('o_path')
+            .then(uri => {
+                console.log('o ::: ', uri);
+                if (uri) {
+                    imagePath = { uri };
+                    
+                    
+                    this.props.saveImage('o_path', uri);
+                    
+                    // this.setState({ image: { ...this.state.image, o: imagePath } });
+                }
+            })
+            .catch(e => console.log(e));
+        
     }
     
     findWinner = () => {
@@ -90,86 +159,38 @@ class Board extends React.Component {
                 flexWrap: 'wrap',
                 width: width - 50,
             }}>
-                {this.state.tiles.map((tile, index) => (
-                    <Tile
-                        key={index}
-                        type={tile}
-                        style={{
-                            width: ((width - 50) / 3) - 2 ,
-                            height: ((width - 50) / 3) - 2 ,
-                        }}
-                        index={index}
-                        onPress={this.onPress}
-                    />
-                ))}
+                {this.state.tiles.map((tile, index) => {
+                    const path = tile === 'x'
+                        ? 'x_path'
+                        : tile === 'o'
+                            ? 'o_path'
+                            : '';
+                            
+                    return (
+                        <Tile
+                            imagePath={this.props.image[path]}
+                            key={index}
+                            type={tile}
+                            style={{
+                                width: ((width - 50) / 3) - 2 ,
+                                height: ((width - 50) / 3) - 2 ,
+                            }}
+                            index={index}
+                            onPress={this.onPress}
+                        />
+                    )
+                })}
             </View>
         );
     }
     
-    openImagePicker = () => {
-        ImagePicker.openPicker({
-            width: 300,
-            height: 400,
-            cropping: true
-        }).then(image => {
-            console.log('image ;::: ', image);
-        });
-    }
-    
-    openImageSelector = () => {
-        const options = {
-            title: 'Select Icon',
-            storageOptions: {
-                skipBackup: true,
-                path: 'images'
-            }
-        };
-        
-        ImageSelector.showImagePicker(options, (response) => {
-          console.log('Response = ', response);
-
-          if (response.didCancel) {
-            console.log('User cancelled image picker');
-          }
-          else if (response.error) {
-            console.log('ImagePicker Error: ', response.error);
-          }
-          else if (response.customButton) {
-            console.log('User tapped custom button: ', response.customButton);
-          }
-          else {
-            let source = { uri: response.uri };
-
-            // You can also display the image using data:
-            // let source = { uri: 'data:image/jpeg;base64,' + response.data };
-
-            this.setState({
-              iconSource: source,
-            });
-          }
-        });
-    }
-    
     render() {
+        console.log('this.props.image ;::: ', this.props.image);
+        
         return (
             <View style={styles.container}>
                 <View style={styles.settingsContainer}>
-                    <Button
-                        onPress={this.openImagePicker}
-                        title="Change Image for X"
-                    />
-                    <Button
-                        onPress={this.openImageSelector}
-                        title="Change Image for O"
-                    />
                     
-                    <Image
-                        style={{
-                            width: 60,
-                            height: 60,
-                        }}
-                        source={this.state.iconSource}
-                    />
                 </View>
                 
                 {this.renderBoard()}
@@ -195,4 +216,10 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Board;
+const mapStateToProps = (state) => {
+    return {
+        image: state.images,
+    }
+}
+
+export default connect(mapStateToProps, { saveImage })(Board);
