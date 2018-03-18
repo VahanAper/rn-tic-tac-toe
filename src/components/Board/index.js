@@ -122,6 +122,7 @@ class Board extends React.Component {
     }
     
     AIMove = () => {
+        const { level } = this.props;
         const { tiles } = this.state;
         
         let freeTilesIndexes = [];
@@ -132,9 +133,19 @@ class Board extends React.Component {
             }
         });
         
-        // const randomIndex = this.getRendomMove(freeTilesIndexes);
+        let randomIndex;
         
-        const randomIndex = this.getRealMove(freeTilesIndexes);
+        if (level === 1) {
+            randomIndex = this.getRendomMove(freeTilesIndexes);
+        } else if (level === 2) {
+            if (Math.random() > 0.7) {
+                randomIndex = this.getRendomMove(freeTilesIndexes);
+            } else {
+                randomIndex = this.getRealMove(freeTilesIndexes);
+            }
+        } else {
+            randomIndex = this.getRealMove(freeTilesIndexes);
+        }
         
         const newTiles = [ ...tiles ];
         newTiles[randomIndex] = 'o';

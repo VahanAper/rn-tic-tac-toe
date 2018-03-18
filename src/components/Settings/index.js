@@ -6,6 +6,7 @@ import {
     AsyncStorage,
 } from 'react-native';
 import {
+    Icon,
     Button,
 } from 'react-native-elements';
 import ImageSelector from 'react-native-image-picker';
@@ -15,6 +16,18 @@ import { connect } from 'react-redux';
 import { saveImage } from '../../actions';
 
 class Settings extends React.Component {
+    static navigationOptions = ({ navigation }) => ({
+        title: 'GAME',
+        headerTitle: 'Game',
+        tabBarIcon: ({ tintColor }) => (
+            <Icon
+                size={30}
+                name="videogame-asset"
+                color={tintColor}
+            />
+        )
+    });
+    
     openImagePicker = (type) => {
         const options = {
             title: 'Select Icon',
@@ -27,13 +40,10 @@ class Settings extends React.Component {
         ImageSelector.showImagePicker(options, (response) => {
 
             if (response.didCancel) {
-                console.log('User cancelled image picker');
+                return;
             }
             else if (response.error) {
-                console.log('ImagePicker Error: ', response.error);
-            }
-            else if (response.customButton) {
-                console.log('User tapped custom button: ', response.customButton);
+                return;
             }
             else {
                 let source = { uri: response.uri };
@@ -60,7 +70,7 @@ class Settings extends React.Component {
                     large
                     title="Change Image for"
                     backgroundColor="green"
-                    buttonStyle={{ marginTop: 10 }}
+                    buttonStyle={styles.buttonStyle}
                     iconRight={{ name: 'close' }}
                     onPress={() => this.openImagePicker('x')}
                 />
@@ -68,7 +78,7 @@ class Settings extends React.Component {
                     large
                     title="Change Image for"
                     backgroundColor="green"
-                    buttonStyle={{ marginTop: 10 }}
+                    buttonStyle={styles.buttonStyle}
                     iconRight={{ name: 'panorama-fish-eye' }}
                     onPress={() => this.openImagePicker('o')}
                 />
@@ -76,7 +86,7 @@ class Settings extends React.Component {
                     large
                     title="Reset Images"
                     backgroundColor="red"
-                    buttonStyle={{ marginTop: 10 }}
+                    buttonStyle={styles.buttonStyle}
                     iconRight={{ name: 'delete-forever' }}
                     onPress={() => AsyncStorage.multiRemove(['x_path', 'o_path'])}
                 />
@@ -86,12 +96,16 @@ class Settings extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    buttonStyle: {
+        marginTop: 10,
+        width: 200,
+    },
 });
 
 export default connect(null, { saveImage })(Settings);
