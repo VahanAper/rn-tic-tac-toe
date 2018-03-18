@@ -70,34 +70,22 @@ class Board extends React.Component {
     }
     
     componentDidMount() {
-        
-        console.log('asd2 ::: ');
-        
         AsyncStorage.getItem('x_path')
             .then(uri => {
-                
-                console.log('x ::: ', uri);
                 if (uri) {
                     imagePath = { uri };
                     
-                    
                     this.props.saveImage('x_path', uri);
-                    
-                    // this.setState({ image: { ...this.state.image, x: imagePath } });
                 }
             })
             .catch(e => console.log(e));
     
         AsyncStorage.getItem('o_path')
             .then(uri => {
-                console.log('o ::: ', uri);
                 if (uri) {
                     imagePath = { uri };
                     
-                    
                     this.props.saveImage('o_path', uri);
-                    
-                    // this.setState({ image: { ...this.state.image, o: imagePath } });
                 }
             })
             .catch(e => console.log(e));
@@ -118,15 +106,158 @@ class Board extends React.Component {
         
         let winner = '';
         
+        // console.log('xPositions ;::: ', xPositions);
+        // console.log('oPositions ::: ', oPositions);
+        
         winningOptions.forEach((option) => {
-            if (isEqual(option, xPositions)) {
+            // if (isEqual(option.sort(), xPositions.sort())) {
+            if (option.every(el => xPositions.indexOf(el) > -1)) {
                 winner = 'x';
-            } else if (isEqual(option, oPositions)) {
+            // } else if (isEqual(option.sort(), oPositions.sort())) {
+            } else if (option.every(el => oPositions.indexOf(el) > -1)) {
                 winner = 'o';
+            } 
+        });
+        
+        return winner;
+        
+        // this.setState({ winner }, this.AIMove);
+    }
+    
+    AIMove = () => {
+        const { tiles } = this.state;
+        
+        let freeTilesIndexes = [];
+        
+        tiles.forEach((tile, index) => {
+            if (tile === '') {
+                freeTilesIndexes.push(index);
             }
         });
         
-        this.setState({ winner });
+        // const randomIndex = this.getRendomMove(freeTilesIndexes);
+        
+        const randomIndex = this.getRealMove(freeTilesIndexes);
+        
+        const newTiles = [ ...tiles ];
+        newTiles[randomIndex] = 'o';
+        
+        this.setState({ tiles: newTiles }, () => {
+            const winner = this.findWinner();
+            
+            if (winner !== '') {
+                this.setState({ winner });
+            }
+        });
+    }
+    
+    getRealMove = (freeTilesIndexes) => {
+        if (!this.isCenterOccupied()) {
+            return 4;
+        }
+        
+        const oWinIndex = this.getMoveByPair('o');
+        
+        if (oWinIndex !== false) {
+            return oWinIndex;
+        }
+        
+        const xWinIndex = this.getMoveByPair('x');
+        
+        if (xWinIndex !== false) {
+            return xWinIndex;
+        }
+        
+        const specialMoveIndex = this.getSpecialIndex();
+        
+        if (specialMoveIndex !== false) {
+            return specialMoveIndex;
+        }
+        
+        const cornerIndex = this.getRandomFreeCorner();
+        
+        if (cornerIndex !== false) {
+            return cornerIndex;
+        }
+        
+        return this.getRendomMove(freeTilesIndexes);
+    }
+    
+    getRandomFreeCorner = () => {
+        const freeCorners = [0, 2, 6, 8].filter(i => {
+            this.state.tiles[i] === '';
+        });
+        
+        console.log('freeCorners ::: ', freeCorners)
+        
+        if (freeCorners.length > 0) {
+            return this.getRendomMove(freeCorners);
+        }
+        
+        return false;
+    }
+    
+    getSpecialIndex = () => {
+        const { tiles } = this.state;
+        const oCount = tiles.filter(tile => tile === 'o').length;
+        
+        if (oCount === 1) {
+            if (
+                (tiles[1] === 'x' && tiles[4] === 'o' && tiles[3] === 'x')
+                ||
+                (tiles[5] === 'x' && tiles[4] === 'o' && tiles[7] === 'x')
+            ) {
+                return this.getRendomMove([2, 6])
+            }
+            
+            if (
+                (tiles[1] === 'x' && tiles[4] === 'o' && tiles[5] === 'x')
+                ||
+                (tiles[3] === 'x' && tiles[4] === 'o' && tiles[7] === 'x')
+            ) {
+                return this.getRendomMove([0, 8])
+            }
+        }
+        
+        return false;
+    }
+    
+    // getRendomNumberFromRange = (min, max) => {
+    //     return Math.floor(Math.random() * (max - min + 1)) + min;
+    // }
+    
+    getMoveByPair = (tile) => {
+        let moveIndex = false;
+        
+        winningOptions.forEach(options => {
+            const countOfUsed = options.filter(option => this.state.tiles[option] === tile).length;
+            const countOfFree = options.filter(option => this.state.tiles[option] === '').length;
+            
+            if (countOfUsed === 2 && countOfFree === 1) {
+                
+                options.forEach((option) => {
+                    if (this.state.tiles[option] === '') {
+                        console.log('option ::: ', option);
+                        
+                        moveIndex = option;
+                    }
+                });
+            }
+        });
+        
+        if (moveIndex !== false) {
+            return moveIndex
+        } else {
+            return false;
+        }
+    }
+    
+    isCenterOccupied = () => {
+        return this.state.tiles[4] !== '';
+    }
+    
+    getRendomMove = (freeTilesIndexes) => {
+        return freeTilesIndexes[Math.floor(Math.random() * freeTilesIndexes.length)];
     }
     
     onPress = (index) => {
@@ -136,8 +267,20 @@ class Board extends React.Component {
         
         this.setState({
             tiles,
-            currentType: currentType === 'x' ? 'o' : 'x',
-        }, this.findWinner);
+            currentType,
+        }, this.findWinnerOrMove);
+    }
+    
+    findWinnerOrMove = () => {
+        const winner = this.findWinner();
+        
+        console.log('winner ;::: ', winner);
+        
+        if (winner === '') {
+            this.AIMove();
+        } else {
+            this.setState({ winner });
+        }
     }
     
     renderBoard() {
@@ -148,6 +291,16 @@ class Board extends React.Component {
             return (
                 <View>
                     <Text>{`The winner is ${winner}`}</Text>
+                    <Button
+                        large
+                        backgroundColor="blue"
+                        buttonStyle={{ marginVertical: 10 }}
+                        icon={{ name: 'autorenew' }}
+                        onPress={() => this.setState({
+                            winner: '',
+                            tiles: Array(9).fill(''),
+                        })}
+                    />
                 </View>
             );
         }
@@ -185,7 +338,7 @@ class Board extends React.Component {
     }
     
     render() {
-        console.log('this.props.image ;::: ', this.props.image);
+        console.log('this.state.tiles ;::: ', this.state.tiles);
         
         return (
             <View style={styles.container}>
