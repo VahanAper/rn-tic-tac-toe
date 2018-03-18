@@ -106,9 +106,6 @@ class Board extends React.Component {
         
         let winner = '';
         
-        // console.log('xPositions ;::: ', xPositions);
-        // console.log('oPositions ::: ', oPositions);
-        
         winningOptions.forEach((option) => {
             // if (isEqual(option.sort(), xPositions.sort())) {
             if (option.every(el => xPositions.indexOf(el) > -1)) {
@@ -188,8 +185,6 @@ class Board extends React.Component {
             this.state.tiles[i] === '';
         });
         
-        console.log('freeCorners ::: ', freeCorners)
-        
         if (freeCorners.length > 0) {
             return this.getRendomMove(freeCorners);
         }
@@ -237,8 +232,6 @@ class Board extends React.Component {
                 
                 options.forEach((option) => {
                     if (this.state.tiles[option] === '') {
-                        console.log('option ::: ', option);
-                        
                         moveIndex = option;
                     }
                 });
@@ -271,12 +264,16 @@ class Board extends React.Component {
         }, this.findWinnerOrMove);
     }
     
+    hasEmptyTile = () => {
+        return this.state.tiles.some(tile => tile === '');
+    }
+    
     findWinnerOrMove = () => {
         const winner = this.findWinner();
         
-        console.log('winner ;::: ', winner);
-        
-        if (winner === '') {
+        if (!this.hasEmptyTile() && winner === '') {
+            this.setState({ winner: 'Draw!' })
+        } else if (winner === '') {
             this.AIMove();
         } else {
             this.setState({ winner });
@@ -288,14 +285,25 @@ class Board extends React.Component {
         const { width } = Dimensions.get('window');
         
         if (winner) {
+            const winnerText = winner === 'x'
+                ? 'You won :)' 
+                    : winner === 'o'
+                        ? 'You loose :('
+                        : 'Draw!';
+            
             return (
-                <View>
-                    <Text>{`The winner is ${winner}`}</Text>
-                    <Button
-                        large
-                        backgroundColor="blue"
-                        buttonStyle={{ marginVertical: 10 }}
-                        icon={{ name: 'autorenew' }}
+                <View
+                    style={{
+                        flex: 1,
+                        alignItems: 'center',
+                        justifyContent: 'space-around',
+                    }}
+                >
+                    <Text style={{ fontSize: 24 }}>{winnerText}</Text>
+                    
+                    <Icon
+                        name="autorenew"
+                        color="orange"
                         onPress={() => this.setState({
                             winner: '',
                             tiles: Array(9).fill(''),
@@ -338,8 +346,6 @@ class Board extends React.Component {
     }
     
     render() {
-        console.log('this.state.tiles ;::: ', this.state.tiles);
-        
         return (
             <View style={styles.container}>
                 <View style={styles.settingsContainer}>
