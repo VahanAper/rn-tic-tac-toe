@@ -18,6 +18,17 @@ const images = (state = DEFAULT_STATE, action) => {
     }
 };
 
+const level = (state = 1, action) => {
+    switch (action.type) {
+        case 'SET_LEVEL':
+            return action.paload;
+            
+        default:
+            return state;
+    }
+}
+
 export default combineReducers({
     images,
+    level,
 });

@@ -378,6 +378,7 @@ const styles = StyleSheet.create({
 const mapStateToProps = (state) => {
     return {
         image: state.images,
+        level: state.level,
     }
 }
 

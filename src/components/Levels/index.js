@@ -8,6 +8,8 @@ import {
     Icon,
 } from 'react-native-elements';
 
+import LevelButton from './LevelButton';
+
 class Levels extends React.Component {
     static navigationOptions = ({ navigation }) => ({
         title: 'LEVELS',
@@ -21,11 +23,15 @@ class Levels extends React.Component {
     });
     
     render() {
+        const { navigate } = this.props.navigation;
+        
         return (
             <View style={styles.container}>
-                <Text>Level 1</Text>
-                <Text>Level 2</Text>
-                <Text>Level 3</Text>
+                <View style={{ height: 200 }}>
+                    <LevelButton level={1} navigate={navigate} />
+                    <LevelButton level={2} navigate={navigate} />
+                    <LevelButton level={3} navigate={navigate} />
+                </View>
             </View>
         );
     }
