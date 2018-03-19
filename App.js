@@ -8,8 +8,9 @@ import {
     TabNavigator,
     StackNavigator,
 } from 'react-navigation';
-
-import { Provider } from 'react-redux';
+import {
+    Provider,
+} from 'react-redux';
 
 import Levels from './src/components/Levels';
 import Board from './src/components/Board';
@@ -17,15 +18,7 @@ import Settings from './src/components/Settings';
 
 import store from './src/store';
 
-const MainNavigator = TabNavigator({
-    levels: { screen: Levels },
-    game : {
-        screen: StackNavigator({
-            game: { screen: Board }, 
-            settings: { screen: Settings },
-        }),
-    },
-}, {
+const navigatorOptions = {
     // this option will prevent to render all screens at the same time
     lazy: true,
     // this option prevents navigation swiping on Android
@@ -38,7 +31,17 @@ const MainNavigator = TabNavigator({
             fontSize: 12,
         },
     },
-});
+};
+
+const MainNavigator = TabNavigator({
+    levels: { screen: Levels },
+    game : {
+        screen: StackNavigator({
+            game: { screen: Board }, 
+            settings: { screen: Settings },
+        }),
+    },
+}, navigatorOptions);
 
 class App extends React.Component {
     render() {

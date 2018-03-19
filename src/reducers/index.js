@@ -1,16 +1,22 @@
 import { combineReducers } from 'redux';
 
-const DEFAULT_STATE = {
-    x_path: require('../components/Tile/x.png'),
-    o_path: require('../components/Tile/o.png'),
-}
+import x_path from '../assets/x.png';
+import o_path from '../assets/o.png';
 
-const images = (state = DEFAULT_STATE, action) => {
+const DEFAULT_IMAGES = {
+    x_path,
+    o_path,
+};
+const DEFAULT_LEVEL = 1;
+
+const images = (state = DEFAULT_IMAGES, action) => {
     switch (action.type) {
         case 'SAVE_IMAGE':
+            const { path, uri } = action.payload;
+            
             return {
                 ...state,
-                [action.payload.path]: { uri: action.payload.uri },
+                [path]: { uri },
             };
             
         default:
@@ -18,10 +24,10 @@ const images = (state = DEFAULT_STATE, action) => {
     }
 };
 
-const level = (state = 1, action) => {
+const level = (state = DEFAULT_LEVEL, action) => {
     switch (action.type) {
         case 'SET_LEVEL':
-            return action.paload;
+            return action.payload;
             
         default:
             return state;

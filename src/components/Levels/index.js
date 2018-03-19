@@ -1,7 +1,6 @@
 import React from 'react';
 import {
     View,
-    Text,
     StyleSheet,
 } from 'react-native';
 import {
@@ -38,12 +37,12 @@ class Levels extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        backgroundColor: '#fff',
+        justifyContent: 'center',
+    },
 });
 
 export default Levels;

@@ -28,11 +28,7 @@ class LevelButton extends React.Component {
                 }}
             >
                 <TouchableOpacity onPress={this.setGameLevel}>
-                    <Text
-                        style={{
-                            fontSize: 18,
-                        }}
-                    >
+                    <Text style={{ fontSize: 18 }} >
                         {`Level ${this.props.level}`}
                     </Text>
                 </TouchableOpacity>

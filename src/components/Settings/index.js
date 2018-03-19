@@ -1,7 +1,6 @@
 import React from 'react';
 import {
     View,
-    Text,
     StyleSheet,
     AsyncStorage,
 } from 'react-native';
@@ -10,8 +9,9 @@ import {
     Button,
 } from 'react-native-elements';
 import ImageSelector from 'react-native-image-picker';
-
-import { connect } from 'react-redux';
+import {
+    connect,
+} from 'react-redux';
 
 import { saveImage } from '../../actions';
 
@@ -22,23 +22,22 @@ class Settings extends React.Component {
         tabBarIcon: ({ tintColor }) => (
             <Icon
                 size={30}
-                name="videogame-asset"
                 color={tintColor}
+                name="videogame-asset"
             />
-        )
+        ),
     });
     
     openImagePicker = (type) => {
         const options = {
             title: 'Select Icon',
             storageOptions: {
+                path: 'images',
                 skipBackup: true,
-                path: 'images'
             }
         };
         
         ImageSelector.showImagePicker(options, (response) => {
-
             if (response.didCancel) {
                 return;
             }
@@ -70,8 +69,8 @@ class Settings extends React.Component {
                     large
                     title="Change Image for"
                     backgroundColor="green"
-                    buttonStyle={styles.buttonStyle}
                     iconRight={{ name: 'close' }}
+                    buttonStyle={styles.buttonStyle}
                     onPress={() => this.openImagePicker('x')}
                 />
                 <Button
@@ -98,13 +97,13 @@ class Settings extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
         alignItems: 'center',
+        backgroundColor: '#fff',
         justifyContent: 'center',
     },
     buttonStyle: {
-        marginTop: 10,
         width: 200,
+        marginTop: 10,
     },
 });
 
