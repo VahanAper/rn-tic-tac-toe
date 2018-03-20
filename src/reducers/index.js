@@ -19,6 +19,12 @@ const images = (state = DEFAULT_IMAGES, action) => {
                 [path]: { uri },
             };
             
+        case 'RESET_IMAGES':
+        
+            return {
+                ...DEFAULT_IMAGES,
+            };
+            
         default:
             return state;
     }

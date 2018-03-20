@@ -13,7 +13,10 @@ import {
     connect,
 } from 'react-redux';
 
-import { saveImage } from '../../actions';
+import {
+    saveImage,
+    resetImages,
+} from '../../actions';
 
 class Settings extends React.Component {
     static navigationOptions = ({ navigation }) => ({
@@ -87,7 +90,8 @@ class Settings extends React.Component {
                     backgroundColor="red"
                     buttonStyle={styles.buttonStyle}
                     iconRight={{ name: 'delete-forever' }}
-                    onPress={() => AsyncStorage.multiRemove(['x_path', 'o_path'])}
+                    // onPress={() => AsyncStorage.multiRemove(['x_path', 'o_path'])}
+                    onPress={this.props.resetImages}
                 />
             </View>
         );
@@ -107,4 +111,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default connect(null, { saveImage })(Settings);
+export default connect(null, { saveImage, resetImages })(Settings);
